@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Report_Brief_Fighting_Between_Thai_and_Japanese_Troops"
+		texturefile = "gfx/events/Brief_Fighting_Between_Thai_and_Japanese_Troops.png"
+	}
+	SpriteType = {
+		name = "GFX_Report_Japan_Demand_Military_Access"
+		texturefile = "gfx/events/Japan_Demand_Military_Access.png"
+	}
+	SpriteType = {
+		name = "GFX_News_Thailand_Folded_to_Japan"
+		texturefile = "gfx/events/Thailand_Folded_to_Japan.png"
+	}
+}

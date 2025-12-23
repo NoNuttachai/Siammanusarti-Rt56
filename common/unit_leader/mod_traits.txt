@@ -1,0 +1,19 @@
+leader_traits = {
+	ratsadon_member = {
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {}
+		non_shared_modifier = { experience_gain_factor = 0.01 }
+
+		new_commander_weight = { factor = 0 }
+	}
+	refused_promotion_trait = {
+		type = land
+		trait_type = personality_trait
+		
+		modifier = { promote_cost_factor = 2.0 }
+		
+		new_commander_weight = { factor = 0 }
+	}
+}

@@ -1,0 +1,128 @@
+﻿l_english:
+
+# Infantry
+ SIA_EQUIPMENT_VERSION_1: "Kor.1"
+ SIA_EQUIPMENT_VERSION_2: "Kor.2"
+ SIA_EQUIPMENT_VERSION_3: "Kor.3"
+ SIA_EQUIPMENT_VERSION_4: "Kor.4"
+ SIA_EQUIPMENT_VERSION_5: "Kor.5"
+ SIA_EQUIPMENT_VERSION_6: "Kor.6"
+ SIA_EQUIPMENT_VERSION_7: "Kor.7"
+ SIA_EQUIPMENT_VERSION_8: "Kor.8"
+ SIA_EQUIPMENT_VERSION_9: "Kor.9"
+ SIA_EQUIPMENT_VERSION_10: "Kor.10"
+ SIA_EQUIPMENT_VERSION_11: "Kor.11"
+ SIA_EQUIPMENT_VERSION_12: "Kor.12"
+ SIA_EQUIPMENT_VERSION_13: "Kor.13"
+
+# Infantry Equip
+ # Historical
+ SIA_infantry_equipment_0: "Puen Lek Yao Type 46/66"
+ SIA_infantry_equipment_0_short: "PorLorYor.46/66"
+ SIA_infantry_equipment_0_desc: "The Type 46/66 is a unique rifle, chambered in the Siamese 8x52mm Rimmed Cartridge, which incorporates what is essentially a hybrid Mauser 96 & 98 action into a body inspired by both Mauser and Arisaka designs.."
+ # Historical
+ SIA_infantry_equipment_1: "Puen Lek Yao Type 66"
+ SIA_infantry_equipment_1_short: "PorLorYor.66"
+ SIA_infantry_equipment_1_desc: "While strictly speaking, not truly a Mauser, the Type 66 is an upgraded Japanese export Type 38 Rifle with an action similar to that found on the older Siamese Type 46. It is chambered for the Siamese 8x52mm Rimmed Cartridge."
+ # Bohemian ZK-383 SMG
+ SIA_infantry_equipment_2: "Puen Kol Muea Type 84 Submachine Guns"
+ SIA_infantry_equipment_2_short: "PorKorMor.84"
+ SIA_infantry_equipment_2_desc: "The Type 84 is the Siamese license produced variant of the Bohemian ZK-383 submachine gun chambered in 9×19mm Parabellum. The Type 84 was adopted following Siam's decision to phase out the ageing MP-18; it was chosen both because it shared the 9x19mm catridge with the MP-18 and for its reliability in jungle conditions."
+ # Fictional
+ SIA_infantry_equipment_3: "Puen Lek Yao Bunchuu-aeng Type 87 Semi-Automatic Rifle"
+ SIA_infantry_equipment_3_short: "PorLorYorBor.87"
+ #JAP Type 97:
+ SIA_infantry_at: "Puen Rai Raeng Sathorn Type 84 Anti-Tank Rifle"
+ SIA_infantry_at_short: "20mm PorRorSor.84"
+ SIA_infantry_at2: "Type 86 Rocket Launcher"
+ #Madsen:
+ SIA_support_weapons: "Type 66 LMG & 25cm Minenwerfer"
+ SIA_support_weapons2: "M1919A3 Browning MG & 8cm Granatwerfer 34"
+ SIA_support_weapons3: "Type 82 HMG & 8cm Pk83 Mortar"
+ SIA_support_weapons4: "Type 82B2 HMG & 120mm Pk85 Mortar"
+ # Klong Truajkan Klangkhuen -> Night Vision Scope, totally fictional
+ SIA_night_vision: "Klong Truajkan Klangkhuen Type 88"
+ SIA_night_vision_short: "KorTorKor.88"
+ SIA_night_vision2: "Klong Truajkan Klangkhuen Type 92"
+ SIA_night_vision2_short: "KorTorKor.92"
+
+# Motorised
+ # Rotyon Bunthuk --> Truck, anachronistic naming
+ SIA_motorized_equipment_1: "Rotyon Bunthuk Type 74 Chaiprakarn"
+ SIA_motorized_equipment_1_short: "RorYorBor.74 Chaiprakarn"
+ # Yarnkhor Lumliang Lhoryang --> Mechanized, Half-tracked, fictional
+ SIA_mechanized_equipment_1: "Rot Humkhror Lhoryang Lumliangpon Type 81 Chaiseri Jhong-ang"
+ SIA_mechanized_equipment_1_short: "RorHorLor.81 Jhong-ang"
+ # Yarnkhor Lumliang Lhoryang --> Mechanized, Half-tracked, fictional
+ SIA_mechanized_equipment_2: "Rot Humkhror Lhoryang Lumliangpon Type 87 Chaiseri Maew Sao"
+ SIA_mechanized_equipment_2_short: "RorHorLor.87 Maew Sao"
+ # Rot Saiphan Lumliangpon Humkhror --> Mechanized, Full-tracked Vehicle, anachronistic naming
+ SIA_mechanized_equipment_3: "Rot Saiphan Lumliangpon Humkhror Chaiseri Type 90 Maemaidum"
+ SIA_mechanized_equipment_3_short: "RorSorPor.90 Maemaidum"
+ # Rot Jaruad Lhai-Lamklong --> Katyusha Truck, anachronistic naming based on Truck
+ SIA_motorized_rocket_equipment_1: "Rot Jaruad Lhai-Lamklong Type 85 Santi Chaiprakarn"
+ SIA_motorized_rocket_equipment_1_short: "RorJorLor.85 Santi Chaiprakarn"
+
+#Armoured Car
+ # Rotkhror Type 74 'Lawaek' Landsverk, OTL Type 74 Morris Armoured Car equivalent
+ SIA_gw_armored_car_equipment: "Rotkhror Type 74 Lawaek"
+ SIA_gw_armored_car_equipment_short: "Rotkhror.74 Lawaek"
+ #Steyr ADGZ, local licensed (Chaiseri)
+ SIA_armored_car_equipment_1: "Rotkhror Type 85 Latlumkaew"
+ SIA_armored_car_equipment_1_short: "Rotkhror.85 Latlumkaew"
+ #39.M Csaba, local licensed (Thairung)
+ SIA_armored_car_equipment_2: "Rotkhror Type 92 Phasicharoen"
+ SIA_armored_car_equipment_2_short: "Rotkhror.92 Phasicharoen"
+ #39.M Csaba with AT gun, local licensed (Thairung)
+ SIA_armored_car_at_equipment: "Rotkhror Torsu-RotThang Type 92/93 Phasicharoen"
+ SIA_armored_car_at_equipment_short: "Rotkhror.TorThor.92/93 Phasicharoen"
+
+# Artillery
+
+ # Type 77 Infantry Gun (Bofors Pack Howitzer); 47AT+75Ho:
+ SIA_anti_tank_equipment_1: "Puenyai Taharn-Rarb Type 77"
+ SIA_anti_tank_equipment_1_short: "47/75mm PorTorRor.77"
+ # Type 80 Light Inf. Howitzer (Bofors):
+ SIA_anti_tank_equipment_2: "Puenyai-Bao Withi-Rarb Type 80"
+ SIA_anti_tank_equipment_2_short: "75mm PorTorRor.80"
+ # Fictional indigenous; Developed from Bofors 75mm Heavy AA i.e. JAP's Type 4 75mm:
+ SIA_anti_tank_equipment_3: "Puentorsu-RotThang Type 87"
+ SIA_anti_tank_equipment_3_short: "75mm PorTorThor.87"
+ # Bofors 75mm Heavy AA Model 1929:
+ SIA_anti_air_equipment_1: "Puentorsu-Arkartsayarn Type 77"
+ SIA_anti_air_equipment_1_short: "75mm PorTorOr.77"
+ # Madsen 20mm cannon; Can't Find Actual Designation:
+ SIA_anti_air_equipment_2: "Puenkol-Arkart Type.81"
+ SIA_anti_air_equipment_2_short: "20mm PorKorOr.81"
+ # Bofors 40mm AA; Can't Find Actual Designation:
+ SIA_anti_air_equipment_3: "Puentorsu-Arkartsayarn Type 84"
+ SIA_anti_air_equipment_3_short: "40mm PorTorOr.84"
+ # Type 78 Field Gun (Bofors 10.5 cm kanon m/34):
+ SIA_artillery_equipment_1: "Puenyai-Bao Krasun Withi-Rarb Type 78"
+ SIA_artillery_equipment_1_short: "105mm PorNorRor.78"
+ # Type 78 Heavy Howitzer (Bofors):
+ SIA_artillery_equipment_2: "Puenyai-Nhak Krasun Withi-Khong Type 78"
+ SIA_artillery_equipment_2_short: "150mm PorNorKor.78"
+ # Type 80 Light Howitzer (Bofors):
+ SIA_artillery_equipment_3: "Puenyai-Bao Withi-Khong Type 80"
+ SIA_artillery_equipment_3_short: "105mm PorBorKor.80"
+ # JAP's Type 4 20 cm Rocket Mortar:
+ SIA_rocket_artillery_equipment_1: "Jaruad Lhai-Lamklong Type 84"
+ SIA_rocket_artillery_equipment_1_short: "20cm JorHor.84"
+ # JAP's Type 4 40 cm Rocket Mortar:
+ SIA_rocket_artillery_equipment_2: "Jaruad Lhai-Lamklong Type 85"
+ SIA_rocket_artillery_equipment_2_short: "40cm JorHor.86"
+
+# Trains
+ #SRS 260: built by Hanomag & Baldwin Locomotive Works; importerd 1928-1929
+ SIA_train_equipment_1: "RSR 260 Hanomag"
+ SIA_train_equipment_1_short: "RSR 260"
+ SIA_train_equipment_1_desc: "Ordered between 1928-1929 by the Royal State Railway of Siam, the RSR 260 was a class of 4-6-2 (Pacific) locomotive built by Hanomag. These locomotives, which superseded the existing E-Classes commissioned between 1915-1921, serve as the new workhorse of the expanding railway network in Siam for both express and mixed traffic trains."
+ #JGR DX50: First Batch 1936-1945, 2nd Batch (CX50) 1942-1943 to replace Hanomags
+ SIA_train_equipment_2: "RSR 350 Mikado"
+ SIA_train_equipment_2_short: "RSR 350"
+ SIA_train_equipment_2_desc: "Also known as Japanese Government Railways DX50 locomotive, these locomotives imported from Japan were the first class of 2-8-2 (Mikado) that became successful within the Siamese service. The RSR later ordered more Mikado standard locomotives to meet railways as well as military demands."
+ #JGR DX50 but armoured: Fictional
+ SIA_train_equipment_3: "RSR 350 Mikado HorKor."
+ SIA_train_equipment_3_short: "RSR 350 HorKor."
+ SIA_train_equipment_3_desc: "As railways started to be attacked by enemy aircraft, new locomotives to serve on the fronts need to be able to take hits from up to 20mm cannons. To protect the locomotive for service against air attack, some RSR 350 Mikado locomotives are fitted with three-inch-thick armour plates along the locomotive to protect the vital parts."

@@ -1,0 +1,76 @@
+add_namespace = N_SIA
+add_namespace = N_SIA_NEWS
+
+country_event = { # Japanese ultimatum to go through Siam
+	id = N_SIA.1
+	title = N_SIA.1.t
+	desc = N_SIA.1.d
+	picture = GFX_Report_Japan_Demand_Military_Access
+	
+	is_triggered_only = yes
+	option = {
+		name = N_SIA.1.a
+		
+		JAP = {
+			if = {
+				limit = { has_faction = no }
+				set_rule = { can_create_factions = yes }
+				create_faction = JAP_greater_east_asian_co_prosperity_sphere
+				custom_effect_tooltip = generic_skip_one_line_tt
+			}
+			add_to_faction = SIA
+			diplomatic_relation = {
+				country = SIA
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = SIA
+				relation = docking_rights
+				active = yes
+			}
+		}
+		if = {
+			limit = { has_government = fascism }
+			hidden_effect = { country_event = { id = N_SIA.2 hours = 3 } }
+		}
+	}
+	option = {
+		name = N_SIA.1.b
+		
+		JAP = {
+			declare_war_on = {
+				target = SIA
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = { # Friendly fire will not be tolerated!
+	id = N_SIA.2
+	title = N_SIA.2.t
+	desc = N_SIA.2.d
+	picture = GFX_Report_Brief_Fighting_Between_Thai_and_Japanese_Troops
+	
+	is_triggered_only = yes
+	option = {
+		name = N_SIA.2.a
+		add_manpower = -40
+		army_experience = 15
+		hidden_effect = { news_event = { id = N_SIA_NEWS.1 hours = 5 } }
+	}
+}
+
+news_event = { # Thailand folds to Japan
+	id = N_SIA_NEWS.1
+	title = N_SIA_NEWS.1.t
+	desc = N_SIA_NEWS.1.d
+	picture = GFX_News_Thailand_Folded_to_Japan
+	
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = N_SIA_NEWS.1.a
+	}
+}

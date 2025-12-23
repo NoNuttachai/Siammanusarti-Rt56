@@ -1,0 +1,70 @@
+leader_traits = {
+
+	pro_democracy_journalist = {
+		random = no
+		sprite = 13
+		democratic_drift = 0.05
+		political_power_factor = 0.1
+	}
+	writer_film_director = {
+		sprite = 13
+		random = no
+		weekly_casualties_war_support = 0.001
+		offensive_war_stability_factor = 0.05
+		defensive_war_stability_factor = 0.05
+		drift_defence_factor = 0.15
+	}
+	police_chief = {
+		random = no
+		sprite = 15
+		operative_slot = 1
+		agency_upgrade_time = -0.15
+	}
+	siamese_revolutionary_leader = {
+		random = no
+		
+		political_power_gain = 0.1
+		stability_factor = 0.1
+	}
+	#Full names and noble titles
+	phraya_phahon_full_name = {
+		random = no
+        ai_will_do = {
+            base = 2
+        }
+		# command_cap =
+		# For the love of God press Tab to put spaces before writing your code
+    }
+	pridi_noble_title = {
+		random = no
+        ai_will_do = {
+            base = 2
+        }
+		# command_cap =
+    }
+	chemist_concern = {
+		random = no
+		base_fuel_gain_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	silk_merchant = {
+		random = no
+		consumer_goods_factor = -0.1
+		intel_network_gain = 5.0
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	locomotive_expert = {
+		random = no
+		production_speed_rail_way_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

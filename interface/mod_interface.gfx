@@ -1,0 +1,141 @@
+SpriteTypes = {
+
+	SpriteType = {
+		name = "GFX_SGUI_SIA_scripted_gui_piece1"
+		texturefile = "gfx/interface/SIA_scripted_gui_piece1.dds"
+	}
+	#Portraits
+	SpriteType = {
+		name = "GFX_portrait_Pleak_Phibun"
+		texturefile = "gfx/leaders/SIA/Plaek_Phibunsongkhram.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_luang_sinthusongkhramchai"
+		texturefile = "gfx/leaders/SIA/Luang_Sinthusongkhramchai.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_luang_sinthusongkhramchai_small"
+		texturefile = "gfx/leaders/SIA/Luang_Sinthusongkhramchai.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_luang_yuthasastrkosol"
+		texturefile = "gfx/leaders/SIA/Luang_Yuthasastrkosol.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_luang_yuthasastrkosol_small"
+		texturefile = "gfx/leaders/SIA/Luang_Yuthasastrkosol.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_khun_phan"
+		texturefile = "gfx/leaders/SIA/khun_phan.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_pridi_banomyong"
+		texturefile = "gfx/leaders/SIA/Pridi_Banomyong.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_thawan_thamrongnawasawat"
+		texturefile = "gfx/leaders/SIA/Thawan_Thamrongnawasawat.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_thawan_thamrongnawasawat"
+		texturefile = "gfx/interface/ideas/advisors/idea_minister_thawan_thamrongnawasawat.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_luang_yuthasastrkosoll"
+		texturefile = "gfx/interface/ideas/advisors/idea_minister_yuthasastrkosoll.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_direk_chaiyanam"
+		texturefile = "gfx/interface/ideas/advisors/idea_Direk_Chaiyanam.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_luang_sinthusongkhramchai"
+		texturefile = "gfx/interface/ideas/advisors/idea_Luang_Sinthusongkhramchai.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SIA_luang_senanarong"
+		texturefile = "gfx/leaders/SIA/Luang_Senanarong.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SIA_jit_wichitsongkram"
+		texturefile = "gfx/leaders/SIA/Jit_Wichitsongkram.dds"
+	}
+	
+	# Ideas
+	SpriteType = {
+		name = "GFX_idea_SIA_anti_communism"
+		texturefile = "gfx/interface/ideas/Anti-Communist_Act.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_buddhism"
+		texturefile = "gfx/interface/ideas/Buddhist_Country.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_fascist_tendencies"
+		texturefile = "gfx/interface/ideas/Fascistic_Tendency_in_the_Army.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_king_ananda_mahidol"
+		texturefile = "gfx/interface/ideas/King_Ananda_Mahidol.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_Legacy_of_the_Siamese_Revolution"
+		texturefile = "gfx/interface/ideas/Legacy_of_the_Siamese_Revolution.dds"
+	}
+
+	# Miscellaneous
+	SpriteType = {
+		name = "GFX_agency_special_branch_bureau"
+		texturefile = "gfx/interface/ideas/Special_Branch_Bureau_Logo.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_cement_group"
+		texturefile = "gfx/interface/ideas/SIA_siam_cement.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_grimm_power"
+		texturefile = "gfx/interface/ideas/B_Grimm_Power.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_tuo_laphan"
+		texturefile = "gfx/interface/ideas/Dr_Tuo_Laphanukrom.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_H_Furuzawa"
+		texturefile = "gfx/interface/ideas/H_Furuzawa.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_Jim_Thompson"
+		texturefile = "gfx/interface/ideas/Jim_Thompson.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SIA_CU_Engineering_Company"
+		texturefile = "gfx/interface/ideas/CU_Engineering_Company.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SIA_KHA_RATSADON_IMPROVED_SIDE"
+		texturefile = "gfx/interface/bop/bop_SIA_khana_ratsadon_improved_side.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_KHA_RATSADON_SIDE"
+		texturefile = "gfx/interface/bop/bop_SIA_khana_ratsadon_side.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_KHA_RATSADON_BAD_SIDE"
+		texturefile = "gfx/interface/bop/bop_SIA_khana_ratsadon_bad_side.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_KHA_RATSADON_VERY_BAD_SIDE"
+		texturefile = "gfx/interface/bop/bop_SIA_khana_ratsadon_very_bad_side.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_ratsadon_member"
+		texturefile = "gfx/interface/traits/Khana_Ratsadon_Commander_Trait.dds"
+		legacy_lazy_load = no
+	}
+}

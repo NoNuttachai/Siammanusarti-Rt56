@@ -1,0 +1,60 @@
+defined_text = {
+	name = SIAGetCorruptionColor
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = SIA_CORRUPTION_TRACKER_VAR
+				value = 0
+				compare = equals
+			}
+		}
+		localization_key = "SL_Green_color"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = SIA_CORRUPTION_TRACKER_VAR
+				value = 11
+				compare = less_than
+			}
+		}
+		localization_key = "SL_Grey_color"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = SIA_CORRUPTION_TRACKER_VAR
+				value = 11
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = SIA_CORRUPTION_TRACKER_VAR
+				value = 50
+				compare = less_than
+			}
+		}
+		localization_key = "SL_Orange_color"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = SIA_CORRUPTION_TRACKER_VAR
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "SL_Red_color"
+	}
+}
+
+defined_text = {
+	name = JAP_alliance_with_siam_scripted_name
+	text = {
+		trigger = {
+			SIA = { OR = { has_government = communism has_government = democratic } }
+		}
+		localization_key = "JAP_alliance_with_siam_name2"
+	}
+	text = { localization_key = "JAP_alliance_with_siam_name" }
+}

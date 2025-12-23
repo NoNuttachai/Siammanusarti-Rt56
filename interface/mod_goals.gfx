@@ -1,0 +1,62 @@
+spriteTypes = {
+	SpriteType = {
+		name = "FOCUS_ICON_PLACEHOLDER"
+		texturefile = "gfx/interface/goals/Placeholder.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_siam_air_force"
+		texturefile = "gfx/interface/goals/focus_siam_air_force.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_legacy_of_the_siamese_revolution"
+		texturefile = "gfx/interface/goals/focus_siam_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Siam_Cement_Concession"
+		texturefile = "gfx/interface/goals/Siam_Cement_Concession.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Revitalized_the_Economy"
+		texturefile = "gfx/interface/goals/Revitalized_the_Economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Iron_Buffaloes"
+		texturefile = "gfx/interface/goals/Iron_Buffaloes.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Education_for_All"
+		texturefile = "gfx/interface/goals/Education_for_All.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Chulalongkorn_University"
+		texturefile = "gfx/interface/goals/Chulalongkorn_University.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Establish_the_National_Bank"
+		texturefile = "gfx/interface/goals/Establish_the_National_Bank.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Jungle_Warfare"
+		texturefile = "gfx/interface/goals/Jungle_Warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_National_Defense_College"
+		texturefile = "gfx/interface/goals/National_Defense_College.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_r56_goal_SIA_siamese_army"
+		texturefile = "gfx/interface/goals/r56_goal_SIA_siamese_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_r56_goal_generic_attack_siam"
+		texturefile = "gfx/interface/goals/r56_goal_generic_attack_siam.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Youth_Corps"
+		texturefile = "gfx/interface/goals/Youth_Corps.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Female_Corps"
+		texturefile = "gfx/interface/goals/Female_Corps.dds"
+	}
+}

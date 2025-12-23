@@ -1,0 +1,28 @@
+SIA = {
+	small_plane_airframe = {
+		pool = {
+			icons = {
+				GFX_SIA_iw_small_airframe_medium
+				GFX_SIA_iw_small_airframe_1_medium
+				GFX_SIA_iw_small_airframe_2_medium
+				GFX_SIA_basic_small_airframe_medium
+				GFX_SIA_basic_small_airframe_1_medium
+				GFX_SIA_improved_small_airframe_medium
+				GFX_SIA_improved_small_airframe_1_medium
+				GFX_SIA_advanced_small_airframe_medium
+				GFX_SIA_modern_small_airframe_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			icons = {
+				GFX_SIA_iw_medium_airframe_medium
+				GFX_SIA_early_bomber_medium
+				GFX_SIA_basic_medium_airframe_medium
+				GFX_SIA_tactical_bomber1_medium
+				GFX_SIA_improved_medium_airframe_medium
+			}
+		}
+	}
+}

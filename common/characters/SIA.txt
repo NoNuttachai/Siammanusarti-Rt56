@@ -1,0 +1,528 @@
+characters={
+	SIA_phraya_phahon={
+		name="Phraya Phahon"
+		portraits={
+			civilian={
+				large=GFX_portrait_Phraya_Phahon
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="1965.1.1.1"
+			traits = { phraya_phahon_full_name siamese_revolutionary_leader }
+			id=-1
+		}
+		corps_commander = {
+			traits = { career_officer old_guard ratsadon_member }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SIA_plaek_phibunsongkhram={
+		name="Plaek Phibunsongkhram"
+		portraits={
+			civilian={
+				large=GFX_portrait_Pleak_Phibun
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1964.1.1.1"
+			traits = {}
+			id=-1
+		}
+		corps_commander = {
+			traits = { media_personality politically_connected ratsadon_member }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SIA_mangkorn_phromyothi = {
+		name="Mangkorn Phromyothi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Mangkorn_Phromyothi.dds"
+				small="gfx/interface/ideas/advisors/idea_Mangkorn_Phromyothi.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ratsadon_member }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SIA_phin_choonhavan = {
+		name="Phin Choonhavan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Phin_Choohavan.dds"
+				small="gfx/interface/ideas/advisors/idea_Phin_Choohavan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SIA_charun_rattanakun_seriroengrit = {
+		name="Charun Rattanakun Seriroengrit"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Charun_Rattanakun_Seriroengrit.dds"
+				small="gfx/interface/ideas/advisors/idea_Charun_Rattanakun_Seriroengrit.dds"
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer ratsadon_member }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SIA_pichit_kriangsakphichit = {
+		name="Pichit Kriangsakphichit"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Pichit_Kriangsakphichit.dds"
+				small="gfx/interface/ideas/advisors/idea_Pichit_Kriangsakphichit.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ratsadon_member }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SIA_pridi_banomyong={
+		name="Pridi Banomyong"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/advisors/idea_Plaek_Phibunsongkhram.dds"
+				large=GFX_portrait_pridi_banomyong
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={  }
+			expire="1965.1.1.1"
+			traits = { pridi_noble_title }
+			id=-1
+		}
+	}
+	
+	#Scientists
+	SIA_Muni_Mahasandhana = {
+		name = "Muni Mahasandhana Vejyantrangsrit"
+		portraits = { army = { large = "gfx/leaders/SIA/MuniMahasandhanaVejyantrangsrit.jpg" } }
+		
+		scientist = {
+			traits = { scientist_trait_rocketry_specialist }
+			skills = {	specialization_air = 2 }
+		}
+	}
+	SIA_Pun_Bunnag = {
+		name = "Pun Bunnag"
+		portraits = { army = { large = "gfx/leaders/SIA/Pun_Bunnag.jpg" } }
+		
+		scientist = {
+			traits = { scientist_trait_bright }
+			skills = {	specialization_naval = 2 }
+		}
+	}
+	SIA_Cang_Ratnarat = {
+		name = "Dr. Cang Ratnarat"
+		portraits = { army = { large = "gfx/leaders/SIA/cang_ratnarat.jpg" } }
+		
+		scientist = {
+			traits = { scientist_trait_fast_learner }
+			skills = {	specialization_land = 2 }
+		}
+	}
+	SIA_Nine_Arm = {
+		name = "Professor Nine Arm"
+		portraits = { army = { large = "gfx/leaders/SIA/nine_arm.jpg" } }
+		
+		scientist = {
+			traits = { scientist_trait_nuclear_warfare_expert }
+			skills = {	specialization_nuclear = 3 }
+		}
+	}
+
+	#Generals
+	SIA_luang_sinthusongkhramchai = {
+		advisor = {
+			slot = navy_chief
+			idea_token = idea_SIA_luang_sinthusongkhramchai
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name = "Luang Sinthusongkhramchai"
+		portraits = {
+			army = {
+				small= "GFX_idea_minister_luang_sinthusongkhramchai"
+				large = "GFX_portrait_luang_sinthusongkhramchai"
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert naval_lineage}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	
+	SIA_luang_yuthasastr_koson = {
+		advisor = {
+			slot = navy_chief
+			idea_token = idea_SIA_luang_yuthasastr_koson
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name = "Luang Yuthasastr-koson"
+		portraits = {
+			army = {
+				small= "GFX_idea_minister_luang_yuthasastrkosoll"
+				large = "GFX_portrait_luang_yuthasastrkosol"
+			}
+		}
+		navy_leader = {
+			traits = { bold blockade_runner naval_lineage }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	
+
+	SIA_luang_senanarong ={
+		name="Luang Senanarong"
+		portraits={
+			army={
+	large = GFX_portrait_SIA_luang_senanarong
+	#small = GFX_portrait_SIA_luang_senanarong_small
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	SIA_jit_wichitsongkram ={
+		name="Jit Wichitsongkram"
+		portraits={
+			army={
+	large = GFX_portrait_SIA_jit_wichitsongkram
+	#small = GFX_portrait_SIA_jit_wichitsongkram_small
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+
+
+	#Admiral and PM Candidate
+	SIA_thawan_thamrongnawasawat = {
+		advisor = {
+			slot = navy_chief
+			idea_token = idea_SIA_thawan_thamrongnawasawat
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name = "Thawan Thamrongnawasawat"
+		portraits = {
+			army = {
+				small= "GFX_idea_minister_thawan_thamrongnawasawat"
+				large = "GFX_portrait_thawan_thamrongnawasawat"
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly spotter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}			
+	}	
+	
+	#Generals
+	SIA_luang_chartnuakrhub={
+		name="Luang Chartnuakrhub"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Luang_Chartnuakrhub.dds"
+				small="gfx/interface/ideas/advisors/idea_Luang_Chartnuakrhub.dds"
+			}
+		}
+		corps_commander={
+			traits={}
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SIA_phraya_songsuradet={
+		advisor={
+			slot = high_command
+			idea_token = idea_SIA_phraya_songsuradet
+			ledger = army
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name="Phraya Songsuradet"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/idea_phraya_songsuradet.dds"
+				large="gfx/leaders/SIA/Phraya_Songsuradet.dds"
+			}
+		}
+		corps_commander={
+			traits={ ratsadon_member }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	#Political Advisor
+	SIA_direk_chaiyanam = {
+		name ="Direk Chaiyanam"
+		portraits = {
+			civilian = {
+				small = GFX_idea_minister_direk_chaiyanam
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_direk_chaiyanam
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_legacy_of_the_siamese_revolution
+				NOT = { has_government = communism }
+			}
+			traits = {skillful_diplomat }
+		}
+	}
+	SIA_pao_pienlert_boripanyutakit = {
+		name ="Pao Pienlert Boripanyutakit"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_pao_pienlert_boripanyutakit.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_pao_pienlert_boripanyutakit
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_legacy_of_the_siamese_revolution
+				NOT = { has_government = communism }
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+	SIA_luang_wichiwathakan = {
+		name ="Luang Wichiwathakan"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_luang_wichiwathakan.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_luang_wichiwathakan
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_phibuns_ascension
+				NOT = { has_government = communism }
+			}
+			traits = {fascist_demagogue}
+		}
+	}
+	SIA_phao_siyanon = {
+		name ="Phao Siyanon"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_phao_siyanon.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_phao_siyanon
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_phibuns_ascension
+				NOT = { has_government = communism }
+			}
+			traits = {prince_of_terror}
+		}
+	}
+	SIA_adul_adulyadejchrat = {
+		name ="Adul Adulyadejchrat"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_adul_adulyadejchrat.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_adul_adulyadejchrat
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_police_force_paramilitarization
+				has_completed_focus = SIA_legacy_of_the_siamese_revolution
+				NOT = { has_government = communism }
+			}
+			traits = {police_chief}
+		}
+	}
+	SIA_sayuan_chudatemi = {
+		name ="Sayuan Chudatemi"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_sayuan_chudatemi.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_sayuan_chudatemi
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_legacy_of_the_siamese_revolution
+				NOT = { has_government = communism }
+			}
+			traits = {captain_of_industry}
+		}
+	}
+	SIA_khun_wichitmatra = {
+		name ="Khun Wichitmatra"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_khun_wichitmatra.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_khun_wichitmatra
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				OR = {
+					has_completed_focus = SIA_legacy_of_the_siamese_revolution
+					has_completed_focus = SIA_opposed_khana_ratsadon
+				}
+				NOT = { has_government = communism }
+			}
+			traits = {writer_film_director}
+		}
+	}
+	SIA_kulap_saipradit = {
+		name ="Kulap Saipradit"
+		portraits = {
+			civilian = {
+				small = gfx/interface/ideas/advisors/idea_kulap_saipradit.dds
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SIA_kulap_saipradit
+			allowed = {
+				original_tag = SIA
+			}
+			available = {
+				has_completed_focus = SIA_civillian_faction_takeover
+				NOT = { has_government = communism }
+			}
+			traits = {pro_democracy_journalist}
+		}
+	}
+} # End of characters

@@ -1,0 +1,166 @@
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_SIA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_SIA_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/JAP_mechanized_equipment_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_SIA_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/JAP_motorized_rocket_unit.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SIA_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/JAP_motorized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_transport_plane_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_bba_early_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_early_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_bba_improved_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_improved_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_iw_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_iw_small_airframe_1_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_0_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_iw_small_airframe_2_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_0_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_basic_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_basic_small_airframe_1_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_1_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_improved_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_improved_small_airframe_1_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_2_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_advanced_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_modern_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_small_plane_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_iw_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_basic_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_improved_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_advanced_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_medium_plane_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_iw_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_large_plane_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_basic_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_large_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_improved_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_large_plane_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_advanced_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_large_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_modern_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SIA_large_plane_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_bba_strategic_airlifter_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_strategic_airlifter_medium"
+		texturefile = "gfx/interface/technologies/SIA_transport_plane_3.dds"
+	}
+}

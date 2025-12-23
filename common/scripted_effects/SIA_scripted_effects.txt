@@ -1,0 +1,8 @@
+sia_update_corruption_seffect = {
+	add_to_variable = { SIA_CORRUPTION_TRACKER_VAR = SIA_CSI_LOWER_VAR_TEMP tooltip = SIA_CORRUPTION_TRACKER_VAR__UPDATE.TT }
+	clamp_variable = {
+		var = SIA_CORRUPTION_TRACKER_VAR
+		min = 0
+		max = 100
+	}
+}

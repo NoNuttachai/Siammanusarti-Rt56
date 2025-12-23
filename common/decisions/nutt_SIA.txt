@@ -1,0 +1,79 @@
+SIA_corruption_skill_issue = {
+
+	SIA_CSI_debug = {
+		name = "DEBUG - Lower Corruption by 20%"
+		available = { is_debug = yes }
+		visible = { is_debug = yes }
+
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		
+		complete_effect = {
+			set_temp_variable = { SIA_CSI_LOWER_VAR_TEMP = -20 }
+			sia_update_corruption_seffect = yes
+		}
+	}
+}
+
+SIA_RH_CAT = {
+	SIA_Left_Side_Debug = {
+		name = "DEBUG - Add 20% to Khana Ratsadon"
+		available = { is_debug = yes }
+		visible = { is_debug = yes }
+
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		
+		complete_effect = {
+			add_power_balance_value = {
+				id = SIA_Rep_House_BOP
+				value = 0.21
+			}
+		}
+	}
+	SIA_Left_Side_Debug_Big = {
+		name = "DEBUG - Add 75% to Khana Ratsadon"
+		available = { is_debug = yes }
+		visible = { is_debug = yes }
+
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		
+		complete_effect = {
+			add_power_balance_value = {
+				id = SIA_Rep_House_BOP
+				value = 0.76
+			}
+		}
+	}
+	SIA_Right_Side_Debug = {
+		name = "DEBUG - Add 20% to Opposition"
+		available = { is_debug = yes }
+		visible = { is_debug = yes }
+
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		
+		complete_effect = {
+			add_power_balance_value = {
+				id = SIA_Rep_House_BOP
+				value = -0.21
+			}
+		}
+	}
+	SIA_Right_Side_Debug_Big = {
+		name = "DEBUG - Add 75% to Opposition"
+		available = { is_debug = yes }
+		visible = { is_debug = yes }
+
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		
+		complete_effect = {
+			add_power_balance_value = {
+				id = SIA_Rep_House_BOP
+				value = -0.76
+			}
+		}
+	}
+}
