@@ -6,7 +6,7 @@ tags={
 dependencies={
 	"The Road to 56"
 }
-name="Siammanusarti"
+name="Siammanusarti: A Road to 56 Submod"
 supported_version="1.17.*"
 replace_path="common/bookmarks"
 path="mod/Siammanusarti/"
