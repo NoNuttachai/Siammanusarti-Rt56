@@ -1,13 +1,6 @@
 ﻿l_english:
     SIA_GATHERING_STORM_DESC: "The only country in Southeast Asia to escape European colonialism, Siam stood at an uncertain crossroads. Absolute monarchy came to an end after a bloodless revolution in 1932, led by major members of the armed forces and the civilian sector, collectively known as the 'Khana Ratsadon.' \nThey succefully have King Prajadhipok (Rama VII) install a constitutional system. A pro-monarchist rebellion led by Prince Boworadej soon follow which was swiftly crushed. \n\nWith many within the Siamese government vying for power and the world preparing for war, it is clear that Siam cannot remain idle on the world stage for long."
     
-
-    ## Siamese decisions
-    SIA_corruption_skill_issue: "Siamese Corruption"
-    SIA_CSI_TITLE_LOC: "§tCorruption Plagues [SIA.GetName]...§!"
-    SIA_CSI_GETCORRUPTION_LOC: "Current level of §OCorruption§!: [SIAGetCorruptionColor][?SIA_CORRUPTION_TRACKER_VAR|0]§! / §t100§!\n\nAvailable §7Secret Police Stamps§!: §Y[?SIA_CORRUPTION_STAMPS_VAR|0]§!"
-    SIA_CORRUPTION_TRACKER_VAR__UPDATE.TT: "§O$SIA_corruption_skill_issue$§! changes by [?SIA_CSI_LOWER_VAR_TEMP|-=0%%]"
-    
     # Leader Traits
     siamese_revolutionary_leader: "\nTiger Soldier of Khana Ratsadon"
     phraya_phahon_full_name: "§gPhraya Phahonphonphayuhasena\n(Phot Phahonyothin)§!"

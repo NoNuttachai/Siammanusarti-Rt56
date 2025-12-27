@@ -17,8 +17,8 @@
     SIA_DEF:0 "Siam"
     SIA_ADJ:0 "Siamese"
     
-    SIA_neutrality_party:0 "Khana Ratsadon- AW"
-    SIA_neutrality_party_long:0 "Khana Ratsadon - Army Wing"
+    SIA_neutrality_party:0 "Khana Ratsadon"
+    SIA_neutrality_party_long:0 "Khana Ratsadon"
     SIA_democratic_party:0 "Khana Ratsadon - CW"
     SIA_democratic_party_long:0 "Khana Ratsadon - Civilian Wing"
     SIA_fascism_party:0 "Khana Ratsadon - PF"
