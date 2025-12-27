@@ -18,7 +18,6 @@
     SIA_chula_uni:0 "Chulalongkorn University"
     SIA_bangkok_urbanisation:0 "Bangkok Urbanisation"
     SIA_foreign_investment:0 "Foreign Investment Programs"
-    SIA_faculty_of_science:0 "Faculty of Science"
     SIA_major_rice_producer:0 "Major Rice Producer"
     SIA_rubber_extraction:0 "Develop Rubber Extraction"
     SIA_agriculture_exports:0 "Agriculture Exports"
@@ -65,8 +64,6 @@
     
     SIA_bofors_artillery:0 "Bofors Artillery"
     SIA_bofors_artillery_desc:0 "To strengthen our artillery units, we will procure cutting-edge systems from the renowned Swedish manufacturer Bofors.\n\nThese weapons will form the backbone of our modern artillery forces, improving both firepower and reliability on the battlefield."
-    SIA_por_tor_aor_antiair:0 "Por Tor Aor"
-    SIA_por_tor_aor_antiair_desc:0 "Por Tor Aor, our dedicated Anti-Aircraft Command, must be expanded and reinforced to meet the growing threat of enemy air power.\n\nThrough research and infrastructure investment, we will shield our skies and secure our strategic assets."
     
     JAP_alliance_with_siam_name:0 "Military Access Through Siam"
     JAP_alliance_with_siam_name2:0 "Invade Siam"
