@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_landmark_wat_arun"
+        texturefile = "gfx/interface/landmarks/wat_arun_icon.dds"
+    }
+}

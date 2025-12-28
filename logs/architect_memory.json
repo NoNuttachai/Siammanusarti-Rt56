@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1766940728263",
+    "role": "user",
+    "text": "This mesh represents a landmark that has the same coding structure as the New landmarks that added with gotterdammergung, add a placeholder modifier and handle the localisation too.",
+    "timestamp": 1766940728263,
+    "attachment": {
+      "name": "landmark_wat_arun.mesh",
+      "mimeType": "application/octet-stream",
+      "isImage": false,
+      "isText": true
+    }
+  },
+  {
+    "id": "1766940786244",
+    "role": "model",
+    "text": "Hata: KOTA LİMİTİ AŞILDI: Günlük kotanızı aştınız. Eğer paralı key kullanıyorsanız, Google Cloud projenizde Billing'in aktif olduğundan emin olun. Sol panelden 'Cloud Selection' yaparak keyi tazelemeyi deneyin.",
+    "timestamp": 1766940786244,
+    "isError": true
+  }
+]

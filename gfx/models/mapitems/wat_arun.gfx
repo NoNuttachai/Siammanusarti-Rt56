@@ -1,0 +1,6 @@
+objectTypes = {
+    pdxmesh = {
+        name = "landmark_wat_arun_mesh"
+        file = "gfx/models/mapitems/landmark_wat_arun.mesh"
+    }
+}
