@@ -1,4 +1,4 @@
-0 = {} # Default block
+
 
 671 = { # Bangkok
 	custom_landmark = {
