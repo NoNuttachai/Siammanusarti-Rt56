@@ -17,5 +17,49 @@
     "text": "Hata: KOTA LİMİTİ AŞILDI: Günlük kotanızı aştınız. Eğer paralı key kullanıyorsanız, Google Cloud projenizde Billing'in aktif olduğundan emin olun. Sol panelden 'Cloud Selection' yaparak keyi tazelemeyi deneyin.",
     "timestamp": 1766940786244,
     "isError": true
+  },
+  {
+    "id": "1766941389326",
+    "role": "user",
+    "text": "i cant see the buikding on The map, here is the error log.",
+    "timestamp": 1766941389326,
+    "attachment": {
+      "name": "error.log",
+      "mimeType": "application/octet-stream",
+      "isImage": false,
+      "isText": true
+    }
+  },
+  {
+    "id": "1766941548899",
+    "role": "model",
+    "text": "Architect processed the request.",
+    "timestamp": 1766941548900,
+    "diffs": [
+      {
+        "path": "gfx/models/mapitems/wat_arun.gfx",
+        "type": "modified"
+      },
+      {
+        "path": "localisation/english/wat_arun_l_english.yml",
+        "type": "modified"
+      },
+      {
+        "path": "localisation/english/landmarks_l_english.yml",
+        "type": "modified"
+      },
+      {
+        "path": "gfx/models/mapitems/wat_arun.gfx",
+        "type": "modified"
+      },
+      {
+        "path": "localisation/english/wat_arun_l_english.yml",
+        "type": "modified"
+      },
+      {
+        "path": "localisation/english/landmarks_l_english.yml",
+        "type": "modified"
+      }
+    ]
   }
 ]
