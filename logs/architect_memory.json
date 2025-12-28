@@ -12,22 +12,6 @@
     "timestamp": 1766943877414,
     "diffs": [
       {
-        "path": "map/buildings.txt",
-        "type": "modified"
-      },
-      {
-        "path": "map/sia_buildings.txt",
-        "type": "deleted"
-      },
-      {
-        "path": "gfx/models/mapitems/wat_arun.gfx",
-        "type": "modified"
-      },
-      {
-        "path": "interface/wat_arun.gfx",
-        "type": "modified"
-      },
-      {
         "path": "common/national_focus/SIA.txt",
         "type": "modified"
       }
