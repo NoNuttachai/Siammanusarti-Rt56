@@ -160,7 +160,7 @@ focus_tree = {
 		id = SIA_khana_rhatsadon_continue_reign
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_organize_a_free_election
-		x = 1
+		x = -4
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -216,7 +216,7 @@ focus_tree = {
 		id = SIA_phrachatiphat_victory
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_organize_a_free_election
-		x = -4
+		x = 2
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -260,6 +260,9 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = { }
+		mutually_exclusive = {
+			focus = SIA_join_the_aillies
+		}
 		prerequisite = { focus = SIA_civilian_faction_leadership }
 }
 
@@ -271,6 +274,9 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = { }
+		mutually_exclusive = {
+			focus = SIA_SEA_self_determination
+		}
 		prerequisite = { focus = SIA_civilian_faction_leadership }
 }
 
@@ -282,8 +288,8 @@ focus_tree = {
 		y = 2
 		cost = 10
 		completion_reward = { }
-	prerequisite = { focus = SIA_SEA_self_determination }
-}
+		prerequisite = { focus = SIA_SEA_self_determination focus = SIA_join_the_aillies}
+	}
 
 	focus = {
 		id = SIA_free_indochina_from_imperialism
