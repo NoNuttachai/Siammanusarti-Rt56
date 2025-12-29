@@ -1373,6 +1373,14 @@ focus = {
 		ai_will_do = { factor = 1 }
 	
 		completion_reward = {
+			289 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1387,6 +1395,7 @@ focus = {
 		ai_will_do = { factor = 1 }
 	
 		completion_reward = {
+			add_ideas = SIA_arms_production
 		}
 	}
 	focus = {
@@ -1404,8 +1413,8 @@ focus = {
 		}
 	}
 	focus = {
-		id = SIA_add_something_here_you_decide_lol
-		icon = gfx_focus_unknown
+		id = SIA_modernize_bang_sue_arsenal
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 1	y = 1
 
 		prerequisite = { focus = SIA_domestic_arms_production focus = SIA_purchase_new_arms }
@@ -1415,6 +1424,13 @@ focus = {
 		ai_will_do = { factor = 1 }
 	
 		completion_reward = {
+			289 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 }

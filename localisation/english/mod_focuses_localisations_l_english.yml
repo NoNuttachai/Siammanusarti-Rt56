@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
     SIA_revitalize_the_economy:0 "Revitalize The Economy"
     SIA_chula_uni:0 "Chulalongkorn University"
     SIA_bangkok_urbanization:0 "Bangkok Urbanization"
@@ -57,4 +57,7 @@
     SIA_army_motorization:0 "Army Motorization"
     SIA_army_motorization_desc:0 "To keep pace with modern warfare, we must transform our infantry divisions into mobile fighting forces.\n\nBy prioritizing speed, maneuverability, and doctrine reform, we will increase our military’s operational flexibility."
     
-    
+    SIA_military-led_industries:0 "Military-Led Industries"
+    SIA_military-led_industries_desc:0 "Direct military oversight of industrial expansion ensures that our factories prioritize the needs of the armed forces above all else."
+    SIA_modernize_bang_sue_arsenal:0 "Modernize Bang Sue Arsenal"
+    SIA_modernize_bang_sue_arsenal_desc:0 "The Bang Sue Arsenal is the heart of our military production. We must upgrade its facilities to handle modern manufacturing techniques and increase output."
