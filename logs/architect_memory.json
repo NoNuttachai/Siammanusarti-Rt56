@@ -24,5 +24,27 @@
         "type": "modified"
       }
     ]
+  },
+  {
+    "id": "1767034452941",
+    "role": "user",
+    "text": "SIA_entice_the_people Balance of Power decision doesn't work excatly like how the Finnish one work, also change the ID name from SIA_entice_the_people to SIA_entice_the_masses",
+    "timestamp": 1767034452941
+  },
+  {
+    "id": "1767034571236",
+    "role": "model",
+    "text": "The Balance of Power decision `SIA_entice_the_people` has been updated to `SIA_entice_the_masses` as requested. \n\nI have modified the decision to work similarly to the Finnish \"Entice the People\" decision (from Arms Against Tyranny) by applying a weekly drift to the Balance of Power and Stability over the duration of the decision, rather than an instant effect. I retained the instant manpower gain as a completion reward.\n\n### Changes Made:\n1.  **Updated Decision ID**: Renamed `SIA_entice_the_people` to `SIA_entice_the_masses` in `common/decisions/nutt_SIA.txt`.\n2.  **Adjusted Mechanics**:\n    *   Removed `add_power_balance_value` (instant change) from `complete_effect`.\n    *   Added a `modifier` block with `power_balance_weekly = 0.005` (drift towards Khana Ratsadon) and `stability_weekly = -0.001`.\n    *   Kept `days_remove = 120` to define the duration of these drifts.\n3.  **Updated Localization**: Changed the localization key in `localisation/english/mod_focuses_localisations_l_english.yml` to `SIA_entice_the_masses` and updated the display name to **\"Entice the Masses\"**.\n\nThe decision now unlocks properly via the `SIA_legacy_of_revolution` focus (using the existing flag) and applies its effects over time.",
+    "timestamp": 1767034571237,
+    "diffs": [
+      {
+        "path": "common/decisions/nutt_SIA.txt",
+        "type": "modified"
+      },
+      {
+        "path": "localisation/english/mod_focuses_localisations_l_english.yml",
+        "type": "modified"
+      }
+    ]
   }
 ]

@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
     SIA_revitalize_the_economy:0 "Revitalize The Economy"
     SIA_chula_uni:0 "Chulalongkorn University"
     SIA_bangkok_urbanization:0 "Bangkok Urbanization"
@@ -71,7 +71,7 @@ By prioritizing speed, maneuverability, and doctrine reform, we will increase ou
     SIA_modernize_bang_sue_arsenal_desc:0 "The Bang Sue Arsenal is the heart of our military production. We must upgrade its facilities to handle modern manufacturing techniques and increase output."
     
     # Balance of Power Decision Name
-    SIA_entice_the_people:0 "Entice the People"
+    SIA_entice_the_masses:0 "Entice the Masses"
     
     # Ideas Localisation
     SIA_crown_property_act_benefit:0 "Centralized Crown Assets"

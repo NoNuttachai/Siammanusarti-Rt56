@@ -78,8 +78,8 @@ SIA_RH_CAT = {
 	}
 	
 	# Decision unlocked by SIA_legacy_of_revolution focus - Copied from Finnish 'Entice the People' template
-	SIA_entice_the_people = {
-		name = SIA_entice_the_people
+	SIA_entice_the_masses = {
+		name = SIA_entice_the_masses
 		icon = generic_political_action
 		
 		available = {
@@ -94,6 +94,11 @@ SIA_RH_CAT = {
 
 		cost = 50
 		days_remove = 120
+		
+		modifier = {
+			power_balance_weekly = 0.005 # Weekly drift towards Khana Ratsadon
+			stability_weekly = -0.001
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -115,12 +120,6 @@ SIA_RH_CAT = {
 		}
 		
 		complete_effect = {
-			add_power_balance_value = {
-				id = SIA_Rep_House_BOP
-				value = 0.10 # Move Balance of Power 10% towards Khana Ratsadon (Right)
-				tooltip_side = SIA_RH_KHANA
-			}
-			add_stability = -0.05
 			add_manpower = 20000
 		}
 	}
