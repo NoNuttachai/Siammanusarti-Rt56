@@ -82,7 +82,12 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 10
-		completion_reward = { }
+		completion_reward = { 
+			 unlock_decision_tooltip = {
+                decision = SIA_six_principles
+                show_effect_tooltip = yes
+            }
+		}
 		prerequisite = { focus = SIA_legacy_of_revolution }
 }
 	focus = {

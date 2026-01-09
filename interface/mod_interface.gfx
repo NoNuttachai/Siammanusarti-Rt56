@@ -134,4 +134,10 @@ SpriteTypes = {
 		texturefile = "gfx/interface/traits/Khana_Ratsadon_Commander_Trait.dds"
 		legacy_lazy_load = no
 	}
+
+	#Decision Pictures
+	spriteType = {
+		name = "GFX_category_the_six_principles"
+		texturefile = "gfx/interface/decisions/GFX_decision_the_six_principles.dds"
+	}
 }

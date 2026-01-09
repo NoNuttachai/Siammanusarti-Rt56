@@ -163,10 +163,7 @@ ideas = {
 			allowed = { is_puppet = no }
 
 			modifier = {
-			power_balance_daily_change = {
-   			id = SIA_BOP
-    		value > 0.05
-			}
+			power_balance_weekly = 0.001
 			political_power_gain = 0.1
 			}
 		}
