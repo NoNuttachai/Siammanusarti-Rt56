@@ -31,18 +31,15 @@ SIA_six_principles = {
 		}
 		fire_only_once = no
 		days_re_enable = 5
-		visible = {
-			}		
+	
 		cost = 0
 		complete_effect = {	
-			#add_timed_idea = {
-    			#idea = my_idea
-    			#days = 180
-			}
+			
 		}
 		ai_will_do = {	
 			factor = 0			
 		}
+	}
 	SIA_principle_2_public_safety = {
 		icon = GFX_decision_icon_default
 		visible = {
@@ -53,18 +50,15 @@ SIA_six_principles = {
 		}
 		fire_only_once = no
 		days_re_enable = 5
-		visible = {
-			}		
+			
 		cost = 0
 		complete_effect = {	
-			#add_timed_idea = {
-    			#idea = my_idea
-    			#days = 180
-			}
+			
 		}
 		ai_will_do = {	
 			factor = 0			
 		}
+	}
 	SIA_principle_3_economic_welfare = {
 		icon = GFX_decision_icon_default
 		visible = {
@@ -75,18 +69,15 @@ SIA_six_principles = {
 		}
 		fire_only_once = no
 		days_re_enable = 5
-		visible = {
-			}		
+		
 		cost = 0
 		complete_effect = {	
-			#add_timed_idea = {
-    			#idea = my_idea
-    			#days = 180
-			}
+			
 		}
 		ai_will_do = {	
 			factor = 0			
 		}
+	}
 	SIA_principle_4_equality = {
 		icon = GFX_decision_icon_default
 		visible = {
@@ -97,18 +88,15 @@ SIA_six_principles = {
 		}
 		fire_only_once = no
 		days_re_enable = 5
-		visible = {
-			}		
+			
 		cost = 0
 		complete_effect = {	
-			#add_timed_idea = {
-    			#idea = my_idea
-    			#days = 180
-			}
+			
 		}
 		ai_will_do = {	
 			factor = 0			
 		}
+	}
 	SIA_principle_5_liberty = {
 		icon = GFX_decision_icon_default
 		visible = {
@@ -119,18 +107,15 @@ SIA_six_principles = {
 		}
 		fire_only_once = no
 		days_re_enable = 5
-		visible = {
-			}		
+			
 		cost = 0
 		complete_effect = {	
-			#add_timed_idea = {
-    			#idea = my_idea
-    			#days = 180
-			}
+			
 		}
 		ai_will_do = {	
 			factor = 0			
 		}
+	}
 	SIA_principle_6_freedom = {
 		icon = GFX_decision_icon_default
 		visible = {
@@ -141,16 +126,13 @@ SIA_six_principles = {
 		}
 		fire_only_once = no
 		days_re_enable = 5
-		visible = {
-			}		
+			
 		cost = 0
 		complete_effect = {	
-			#add_timed_idea = {
-    			#idea = my_idea
-    			#days = 180
-			}
+			
 		}
 		ai_will_do = {	
 			factor = 0			
 		}
 	}
+}

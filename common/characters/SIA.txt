@@ -236,8 +236,8 @@ characters={
 		name="Luang Senanarong"
 		portraits={
 			army={
-	large = GFX_portrait_SIA_luang_senanarong
-	#small = GFX_portrait_SIA_luang_senanarong_small
+				large = GFX_portrait_SIA_luang_senanarong
+				#small = GFX_portrait_SIA_luang_senanarong_small
 			}
 		}
 		corps_commander={
@@ -255,8 +255,8 @@ characters={
 		name="Jit Wichitsongkram"
 		portraits={
 			army={
-	large = GFX_portrait_SIA_jit_wichitsongkram
-	#small = GFX_portrait_SIA_jit_wichitsongkram_small
+				large = GFX_portrait_SIA_jit_wichitsongkram
+				#small = GFX_portrait_SIA_jit_wichitsongkram_small
 			}
 		}
 		corps_commander={
@@ -525,4 +525,4 @@ characters={
 			traits = {pro_democracy_journalist}
 		}
 	}
-} # End of characters
+}

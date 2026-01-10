@@ -1,4 +1,3 @@
-
 SIA_RH_CAT = {
 	SIA_Left_Side_Debug = {
 		name = "DEBUG - Add 20% to Khana Ratsadon"
@@ -10,8 +9,8 @@ SIA_RH_CAT = {
 		
 		complete_effect = {
 			add_power_balance_value = {
-				id = SIA_Rep_House_BOP
-				value = 0.21
+				id = SIA_BOP
+				value = 0.20
 			}
 		}
 	}
@@ -25,8 +24,8 @@ SIA_RH_CAT = {
 		
 		complete_effect = {
 			add_power_balance_value = {
-				id = SIA_Rep_House_BOP
-				value = 0.76
+				id = SIA_BOP
+				value = 0.75
 			}
 		}
 	}
@@ -40,8 +39,8 @@ SIA_RH_CAT = {
 		
 		complete_effect = {
 			add_power_balance_value = {
-				id = SIA_Rep_House_BOP
-				value = -0.21
+				id = SIA_BOP
+				value = -0.20
 			}
 		}
 	}
@@ -55,12 +54,12 @@ SIA_RH_CAT = {
 		
 		complete_effect = {
 			add_power_balance_value = {
-				id = SIA_Rep_House_BOP
-				value = -0.76
+				id = SIA_BOP
+				value = -0.75
 			}
 		}
 	}
-	SIA_entice_the_masses = { #copy from Finland lol
+	SIA_entice_the_masses = { 
 		priority = 38
 
 		icon = GFX_decision_eng_propaganda_campaigns
@@ -79,7 +78,7 @@ SIA_RH_CAT = {
 
 		days_re_enable = 360
 
-		cost = FIN_entice_the_masses_dec_cost
+		cost = SIA_entice_the_masses_dec_cost
 
 		complete_effect = {
 			add_popularity = {
@@ -89,8 +88,9 @@ SIA_RH_CAT = {
 			FIN_bop_medium_increase_effect = yes
 
 			#Increase cost
+			set_temp_variable = { SIA_bop_decision_cost_multiplier = 2 }
 			multiply_variable = { SIA_entice_the_masses_dec_cost = SIA_bop_decision_cost_multiplier }
-			custom_effect_tooltip = FIN_entice_the_masses_cost_increase_tt
+			custom_effect_tooltip = SIA_entice_masses_cost_tt
 		}
 	}
 	SIA_plant_khana_ratsadon_plaque_decision = { 		
@@ -118,3 +118,4 @@ SIA_RH_CAT = {
 				country_event = sia_BOP_event.1
 		}
 	}
+}

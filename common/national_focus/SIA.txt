@@ -19,7 +19,7 @@ focus_tree = {
         cost = 10
         available = { }
 		mutually_exclusive = { focus = SIA_opposed_khana_ratsadon }
-		mark_focus_tree_layout_dirty = yes
+		
 		allow_branch = {
 			if = {
 				limit = {
@@ -45,6 +45,7 @@ focus_tree = {
             # This flag is used to show the specific decision.
             set_country_flag = sia_bop_decision_entice_the_people_unlocked
 			set_country_flag = sia_plant_khana_ratsadon_plaque_decision
+			mark_focus_tree_layout_dirty = yes
         }
     }
 
@@ -68,12 +69,12 @@ focus_tree = {
             }
 			hidden_effect = {
       			country_event = {
-            	Id = sia_events.1
-            	days = 5
-      		}
+					Id = sia_events.1
+					days = 5
 				}
+			}
 		}
-}
+	}
 
 	focus = {
 		id = SIA_propagandize_six_principles
@@ -83,13 +84,10 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = { 
-			 unlock_decision_tooltip = {
-                decision = SIA_six_principles
-                show_effect_tooltip = yes
-            }
+			custom_effect_tooltip = unlock_six_principles_tt
 		}
 		prerequisite = { focus = SIA_legacy_of_revolution }
-}
+	}
 	focus = {
 		id = SIA_thammasat_university
 		icon = gfx_focus_unknown
@@ -1241,7 +1239,7 @@ focus = {
 		completion_reward = {
 			add_ideas = SIA_bank_of_siam
 			add_power_balance_value = {
-				id = SIA_Rep_House_BOP
+				id = SIA_BOP
 				value = 0.05
 				tooltip_side = SIA_RH_KHANA 
 			}
@@ -1425,7 +1423,7 @@ focus = {
 		y = 0
 		cost = 10
 		mutually_exclusive = { focus = SIA_legacy_of_revolution }
-		mark_focus_tree_layout_dirty = yes
+		
 		allow_branch = {
 			if = {
 				limit = {
@@ -1439,8 +1437,16 @@ focus = {
 				}
 			}
 		}
+		offset = {
+			x = -19
+			trigger = {
+				has_completed_focus = SIA_opposed_khana_ratsadon
+			}
+		}
 
-		completion_reward = { }
+		completion_reward = { 
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 	focus = {
 		id = SIA_exposed_crown_property_theft

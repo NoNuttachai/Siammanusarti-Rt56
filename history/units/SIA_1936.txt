@@ -1,7 +1,7 @@
 instant_effect = {
 	### Variants ###
 	if = {
-		limit = { has_dlc_nsb = yes }
+		limit = { has_dlc = "No Step Back" }
 		create_equipment_variant = {
 			name = "ThorBao.73" # Equi. of OTL early Carden Llyods;22
 			type = light_tank_chassis_0

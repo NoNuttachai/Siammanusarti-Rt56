@@ -40,7 +40,8 @@ if = {
 
 set_power_balance = {
     id = SIA_BOP
-    value = 0.0
+    left_side = SIA_RH_OPPOS
+	right_side = SIA_RH_KHANA
 }
 
 ## Leaders
@@ -49,25 +50,8 @@ recruit_character = SIA_plaek_phibunsongkhram
 recruit_character = SIA_pridi_banomyong
 ## Admiral and PM
 recruit_character = SIA_thawan_thamrongnawasawat
-recruit_character = SIA_phraya_preechacholayudha
-recruit_character = SIA_pridi_phanomyong
-recruit_character = SIA_sindhu_kamalanavin
-recruit_character = SIA_phraya_chitnasongkhla
-recruit_character = SIA_phraya_thayarnpikart
-recruit_character = SIA_phra_vechayanrangsarit
-recruit_character = SIA_manphya_khanphialong
-recruit_character = SIA_luang_phibunsongkhram
-recruit_character = SIA_phraya_wichcitcholathai
-recruit_character = SIA_sawat_phutianands
-recruit_character = SIA_phraya_chalermarkiart
-recruit_character = SIA_kuang_abhayavongsa
-recruit_character = SIA_thawee_punyaketu
-recruit_character = SIA_phot_bhahalyodin
-recruit_character = SIA_chao_phonphayuhasena
 recruit_character = SIA_luang_sinthusongkhramchai
 recruit_character = SIA_luang_yuthasastr_koson
-recruit_character = SIA_tianliang_huntrakool
-recruit_character = SIA_phra_silpasakrakorn
 recruit_character = SIA_phin_choonhavan
 recruit_character = SIA_mangkorn_phromyothi
 recruit_character = SIA_charun_rattanakun_seriroengrit
@@ -81,7 +65,6 @@ recruit_character = SIA_pao_pienlert_boripanyutakit
 recruit_character = SIA_luang_wichiwathakan
 recruit_character = SIA_phao_siyanon
 recruit_character = SIA_adul_adulyadejchrat
-recruit_character = SIA_direk_chaiyanam
 recruit_character = SIA_sayuan_chudatemi
 recruit_character = SIA_khun_wichitmatra
 recruit_character = SIA_kulap_saipradit
@@ -238,10 +221,7 @@ set_convoys = 15
 
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_intelligence_agency = {
-		name = "Special Branch Bureau"
-		icon = "GFX_agency_special_branch_bureau"
-	}
+	
 }
 
 set_politics = {

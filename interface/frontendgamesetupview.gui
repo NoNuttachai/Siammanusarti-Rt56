@@ -205,6 +205,13 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
+		
+		buttonType = {
+			name = "country_shine"
+			quadTextureSprite = "GFX_mini_country_selector_shine"
+			position = { x=0 y =0 }
+			clicksound = click_checkbox
+		}
 	}
 
 
