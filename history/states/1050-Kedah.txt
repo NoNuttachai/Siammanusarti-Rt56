@@ -1,0 +1,22 @@
+state={
+	id=1050
+	name="STATE_1050"
+	manpower = 3131
+	
+	state_category = pastoral
+
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1291 7342 12144
+	}
+
+	local_supplies=0.0 
+}

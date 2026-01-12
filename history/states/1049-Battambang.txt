@@ -1,0 +1,22 @@
+state={
+	id=1049
+	name="STATE_1049"
+	manpower = 3131
+	
+	state_category = pastoral
+
+	history={
+		owner = FRA
+		add_core_of = CAM
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		4251 4302 10134 10467 12447 12460 
+	}
+
+	local_supplies=0.0 
+}

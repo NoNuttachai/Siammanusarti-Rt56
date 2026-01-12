@@ -1,0 +1,22 @@
+state={
+	id=1051
+	name="STATE_1051"
+	manpower = 3131
+	
+	state_category = pastoral
+
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1348 4355 7329 10227 12199
+	}
+
+	local_supplies=0.0 
+}
