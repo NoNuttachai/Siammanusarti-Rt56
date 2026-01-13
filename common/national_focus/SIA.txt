@@ -494,7 +494,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SIA_royalist_conservativisms }
 }
 	focus = {
-		id = SIA_add_something_here_3
+		id = SIA_open_up_the_economy
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_the_pramoj_brothers
 		x = 1
@@ -504,24 +504,14 @@ focus_tree = {
 		prerequisite = { focus = SIA_thawee_bunyaket_premiership focus = SIA_thawan_thamrong_premiership focus = SIA_continue_pridi_administration}
 }
 	focus = {
-		id = SIA_add_something_here_3
-		icon = gfx_focus_unknown
-		relative_position_id = SIA_the_pramoj_brothers
-		x = 1
-		y = 1
-		cost = 10
-		completion_reward = { }
-		prerequisite = { focus = SIA_the_pramoj_brothers focus = SIA_khung_aphaiwong_premiership }
-}
-	focus = {
 		id = SIA_mixed_economy_framework
 		icon = gfx_focus_unknown
-		relative_position_id = SIA_add_something_here_3
+		relative_position_id = SIA_open_up_the_economy
 		x = 1
 		y = 1
 		cost = 10
 		completion_reward = { }
-		prerequisite = { focus = SIA_add_something_here_3 focus = SIA_pro_business_policies }
+		prerequisite = { focus = SIA_open_up_the_economy focus = SIA_pro_business_policies }
 }
 	focus = {
 		id = SIA_support_trade_unions
@@ -1576,12 +1566,19 @@ focus = {
 		cost = 2
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_ideas = SIA_bank_of_siam
-			add_power_balance_value = {
-				id = SIA_BOP
-				value = 0.05
-				tooltip_side = SIA_RH_KHANA 
-			}
+		}
+	}
+		focus = {
+		id = SIA_wartime_economic_policies
+		icon = GFX_focus_PRC_equipment_from_copper_coins
+		x = -1	y = 1
+		
+		prerequisite = { focus = SIA_military-led_industries }
+		relative_position_id = SIA_military-led_industries
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+		completion_reward = {
 		}
 	}
 		focus = {
