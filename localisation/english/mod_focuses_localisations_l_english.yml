@@ -273,7 +273,14 @@ SIA_invite_japanese_zaibatsus_desc: ""
 SIA_invite_western_companies_desc: ""
 SIA_rural_provincial_development_desc: ""
 
+SIA_expand_mae_moh_mine: "Expand Mae Moh Mine"
+SIA_expand_mae_moh_mine_desc: "TBA"
 
+SIA_on_our_own: "On Our Own"
+SIA_on_our_own_desc: "The world has opted to tear itself apart once more. If we are to endure and come out stronger than ever, we must find ways to use our resources for our own purposes."
+
+SIA_enticing_markets: "Enticing Markets"
+SIA_enticing_markets_desc: "Rubber and its' derivatives are all too valuable in modern warfare. Even if it is difficult to export it with current conditions on the waves, perhaps we can profit off this."
 
 # Balance of Power Decision Name
 SIA_entice_the_masses: "Entice the Masses"
