@@ -79,6 +79,7 @@ add_ideas = {
 	SIA_buddhism
 	SIA_king_ananda_mahidol
 	SIA_lingering_depression
+	SIA_rubber_economy
 }
 
 set_variable = { SIA_CORRUPTION_TRACKER_VAR = 71 }
