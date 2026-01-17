@@ -80,6 +80,7 @@ add_ideas = {
 	SIA_king_ananda_mahidol
 	SIA_lingering_depression
 	SIA_rubber_economy
+	SIA_chinese_immigration_influx
 }
 
 set_variable = { SIA_CORRUPTION_TRACKER_VAR = 71 }
