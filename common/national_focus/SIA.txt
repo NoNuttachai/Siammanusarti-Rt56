@@ -265,7 +265,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		completion_reward = { }
-		prerequisite = { focus = SIA_thawee_bunyaket_premiership }
+		prerequisite = { focus = SIA_seni_pramoj_premiership focus = SIA_khung_aphaiwong_premiership focus = SIA_thawee_bunyaket_premiership focus = SIA_thawan_thamrong_premiership focus = SIA_continue_pridi_administration }
 }
 
 	focus = {
@@ -390,7 +390,7 @@ focus_tree = {
 		id = SIA_thawee_bunyaket_premiership
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_khana_ratsadon_reelected
-		x = 1
+		x = 0
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -442,24 +442,34 @@ focus_tree = {
 		id = SIA_cooperate_with_khana_ratsadon
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_royalist_conservativism
-		x = 1
-		y = 1
-		cost = 10
-		completion_reward = { }
-		prerequisite = { focus = SIA_royalist_conservativism }
-				mutually_exclusive = { focus = SIA_attack_khana_ratsadon }
-}
-	focus = {
-		id = SIA_attack_khana_ratsadon
-		icon = gfx_focus_unknown
-		relative_position_id = SIA_royalist_conservativism
 		x = -1
 		y = 1
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_royalist_conservativism }
+		mutually_exclusive = { focus = SIA_attack_khana_ratsadon }
+	}
+	focus = {
+		id = SIA_sufficiency_economics
+		icon = gfx_focus_unknown
+		relative_position_id = SIA_cooperate_with_khana_ratsadon
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = { }
+		prerequisite = { focus = SIA_cooperate_with_khana_ratsadon }
+	}
+	focus = {
+		id = SIA_attack_khana_ratsadon
+		icon = gfx_focus_unknown
+		relative_position_id = SIA_royalist_conservativism
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = { }
+		prerequisite = { focus = SIA_royalist_conservativism }
 		mutually_exclusive = { focus = SIA_cooperate_with_khana_ratsadon }
-}
+	}
 	focus = {
 		id = SIA_pro_business_policies
 		icon = gfx_focus_unknown
@@ -469,13 +479,34 @@ focus_tree = {
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_seni_pramoj_premiership focus = SIA_khung_aphaiwong_premiership focus = SIA_thawee_bunyaket_premiership }
-		mutually_exclusive = { focus = SIA_royalist_conservativisms }
-}
+	}
+	focus = {
+		id = SIA_revise_the_constitution
+		icon = gfx_focus_unknown
+		relative_position_id = SIA_pro_business_policies
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = { }
+		prerequisite = { focus = SIA_pro_business_policies }
+		prerequisite = { focus = SIA_royalist_conservativism }
+	}
+	focus = {
+		id = SIA_democrats_and_palace
+		icon = gfx_focus_unknown
+		relative_position_id = SIA_revise_the_constitution
+		x = -1
+		y = 1
+		cost = 10
+		completion_reward = { }
+		prerequisite = { focus = SIA_revise_the_constitution }
+		prerequisite = { focus = SIA_attack_khana_ratsadon }
+	}
 	focus = {
 		id = SIA_support_labor_unions
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_khana_ratsadon_reelected
-		x = 4
+		x = 3
 		y = 2
 		cost = 10
 		completion_reward = { }
@@ -485,7 +516,7 @@ focus_tree = {
 		id = SIA_nationwide_land_reform
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_thawan_thamrong_premiership
-		x = -1
+		x = -2
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -495,7 +526,7 @@ focus_tree = {
 		id = SIA_scientific_democratic_socialism
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_continue_pridi_administration
-		x = 1
+		x = 0
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -515,7 +546,7 @@ focus_tree = {
 		id = SIA_welfare_state
 		icon = GFX_focus_generic_social_democracy
 		relative_position_id = SIA_continue_pridi_administration
-		x = 0
+		x = -1
 		y = 2
 		cost = 10
 		completion_reward = { }
