@@ -340,8 +340,10 @@ focus_tree = {
 		y = 3
 		cost = 10
 		completion_reward = { }
-	prerequisite = { focus = SIA_liberate_indochina_from_imperialism focus = SIA_backed_ho_chi_minh focus = SIA_guardian_of_southeast_asia}
-}
+		prerequisite = { focus = SIA_anglo_thai_something }
+		prerequisite = { focus = SIA_guardian_of_southeast_asia }
+		prerequisite = { focus = SIA_liberate_indochina_from_imperialism focus = SIA_backed_ho_chi_minh }
+	}
 	focus = {
 		id = SIA_one_vision_one_identity_one_community
 		icon = gfx_focus_unknown
@@ -474,7 +476,7 @@ focus_tree = {
 		id = SIA_pro_business_policies
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_khung_aphaiwong_premiership
-		x = -1
+		x = 1
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -484,7 +486,7 @@ focus_tree = {
 		id = SIA_revise_the_constitution
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_pro_business_policies
-		x = 1
+		x = -1
 		y = 1
 		cost = 10
 		completion_reward = { }
