@@ -303,6 +303,15 @@ SIA_granary_of_the_orient_desc: "TBA"
 SIA_tiger_cub_economy: "Tiger Cub Economy"
 SIA_tiger_cub_economy_desc: "TBA"
 
+SIA_revise_the_constitution: "Revise the Constitution"
+SIA_revise_the_constitution_desc: "Note to later devs: based off the 1949 constitution."
+
+SIA_democrats_and_palace: "Democrats and Palace"
+SIA_democrats_and_palace_desc: "Note to later devs: Essentially meant to show the alliance between the predominantly Phrachatiphat Senate and the King."
+
+SIA_sufficiency_economics: "Sufficiency Economics"
+SIA_sufficiency_economics_desc: "Note: Whilst ahistorical, the idea is that cooperation with the left-leaning Khana Ratsbon alongside the Phrachatiphat's royalist interests would lead to a somewhat early variant built around more rampant rural development that would help businesses overwhelmingly long-term."
+
 # Balance of Power Decision Name
 SIA_entice_the_masses: "Entice the Masses"
 
