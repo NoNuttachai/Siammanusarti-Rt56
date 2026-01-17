@@ -333,6 +333,21 @@ ideas = {
 			}
 		}
 
+		SIA_chinese_immigration_influx = {
+			removal_cost = -1
+			
+			picture = generic_migration_blue
+			
+			allowed = { always = yes }
+			
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = -0.1
+				political_power_factor = -0.1
+				research_speed_factor = 0.03
+			}
+		}
+
 		SIA_modern_industry_1 = {
 			removal_cost = -1
 			
