@@ -61,6 +61,8 @@ SIA_jungle_warfare_idea: "Harsh Terrain Warfare"
 SIA_arms_production: "[SIA.GetAdjective] Arms Production"
 SIA_por_tor_anti_air: "Por Tor Anti-Air Company"
 SIA_cyclers_idea: "Yuwachon Thahan (Youth Corps)"
+SIA_chinese_immigration_influx: "Chinese Immigration Influx"
+SIA_chinese_immigration_influx_desc: "Siam is home to millions of ethnic Chinese who each fled turmoil in their homeland. As China collapsed in warlordism and civil war, hardship drove unprecedented numbers of Chinese migrants overseas, with many finding refuge in Siam."
 
 # Miscellaneous
 SL_Green_color: "§G"
