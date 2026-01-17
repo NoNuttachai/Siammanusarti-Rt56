@@ -314,7 +314,7 @@ focus_tree = {
 		id = SIA_american_siam_alliance #If the country is Fascist and refused to ceeded to Japan you can join the Allies even if you are Fascist
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_rattaniyom_decrees
-		x = 10
+		x = 9
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -1592,14 +1592,127 @@ focus = {
 		}
 	}
 	focus = {
+		id = SIA_economic_nationalism
+		icon = GFX_goal_unknown
+		x = 0	
+		y = 1
+
+		relative_position_id = SIA_on_our_own
+		prerequisite = { focus = SIA_on_our_own }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SIA_refine_our_rubber
+		icon = GFX_goal_unknown
+		x = 2	
+		y = 1
+
+		relative_position_id = SIA_on_our_own
+		prerequisite = { focus = SIA_on_our_own }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SIA_rice_security
+		icon = GFX_goal_unknown
+		x = 0	
+		y = 1
+
+		relative_position_id = SIA_refine_our_rubber
+		prerequisite = { focus = SIA_economic_nationalism }
+		prerequisite = { focus = SIA_refine_our_rubber }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SIA_economic_self_reliance
+		icon = GFX_goal_unknown
+		x = 0	
+		y = 1
+
+		relative_position_id = SIA_rice_security
+		prerequisite = { focus = SIA_rice_security }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
 		id = SIA_enticing_markets
 		icon = GFX_goal_unknown
-		x = 3	
+		x = 4	
 		y = 1
 
 		relative_position_id = SIA_encorage_rubber_plantations
 		prerequisite = { focus = SIA_encorage_rubber_plantations }
 		mutually_exclusive = { focus = SIA_on_our_own }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SIA_to_new_markets
+		icon = GFX_goal_unknown
+		x = 0	
+		y = 1
+
+		relative_position_id = SIA_enticing_markets
+		prerequisite = { focus = SIA_enticing_markets }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SIA_granary_of_the_orient
+		icon = GFX_goal_unknown
+		x = 0	
+		y = 1
+
+		relative_position_id = SIA_to_new_markets
+		prerequisite = { focus = SIA_to_new_markets }
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SIA_tiger_cub_economy
+		icon = GFX_goal_unknown
+		x = 0	
+		y = 1
+
+		relative_position_id = SIA_granary_of_the_orient
+		prerequisite = { focus = SIA_granary_of_the_orient }
 		
 		cost = 2
 		ai_will_do = { factor = 1 }
@@ -1855,7 +1968,7 @@ focus = {
 		id = SIA_fund_thmmayuth_nikai
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_pardon_some_khana_ratsadon_members
-		x = -4
+		x = -3
 		y = 1
 		cost = 10
 		completion_reward = { }
@@ -1930,17 +2043,7 @@ focus = {
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_pardon_some_khana_ratsadon_members focus = SIA_sweet_taste_of_vengence }
-}
-	focus = {
-		id = SIA_monarchist_military_rule #
-		icon = gfx_focus_unknown
-		relative_position_id = SIA_overthrow_khana_ratsadon
-		x = -3
-		y = 2
-		cost = 10
-		completion_reward = { }
-		prerequisite = { focus = SIA_pardon_some_khana_ratsadon_members focus = SIA_sweet_taste_of_vengence }
-}
+	}
 	focus = {
 		id = SIA_coronate_king_rama_8
 		icon = gfx_focus_unknown
