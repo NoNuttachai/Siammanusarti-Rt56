@@ -312,6 +312,21 @@ SIA_democrats_and_palace_desc: "Note to later devs: Essentially meant to show th
 SIA_sufficiency_economics: "Sufficiency Economics"
 SIA_sufficiency_economics_desc: "Note: Whilst ahistorical, the idea is that cooperation with the left-leaning Khana Ratsbon alongside the Phrachatiphat's royalist interests would lead to a somewhat early variant built around more rampant rural development that would help businesses overwhelmingly long-term."
 
+SIA_acquire_japanese_torpedos: "Purchase Torpedos"
+SIA_acquire_japanese_torpedos_desc: "Note: Inspired by RT56's focuses, essentially just trying to get torpedos from abroad."
+
+SIA_a_two_ocean_navy: "A Two-Ocean Navy"
+SIA_a_two_ocean_navy_desc: "Note: Just a naval capstone focus inspired by Kaiserreich's tree. Siam has managed to assert naval influence in both the Indian Ocean and the Pacific."
+
+SIA_southern_bases: "Southern Bases"
+SIA_southern_bases_desc: "Note: Inspired by RT56's focuses. Build up some southern bases for the naval air force and what not."
+
+SIA_incorporate_allied_radar: "Incorporate Allied RADAR"
+SIA_incorporate_allied_radar_desc: "Note: ALSO inspired by RT56. Get Radar tech bonuses and what not from your allies."
+
+SIA_modernized_escorts: "Modernized Escorts"
+SIA_modernized_escorts_desc: "Note: Another RT56-inspired focus. Just about modernizing said merchant fleet and the like."
+
 # Balance of Power Decision Name
 SIA_entice_the_masses: "Entice the Masses"
 
