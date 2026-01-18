@@ -1969,23 +1969,24 @@ focus = {
 	focus = {
 		id = SIA_alligned_sri_lanka #fund rebellion in British control Sri Lanka or gain decision to invite to faction
 		icon = gfx_focus_unknown
-		relative_position_id = SIA_fund_thmmayuth_nikai
+		relative_position_id = SIA_pan_aillience__with_buddhist_nations
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 		completion_reward = { }
-		prerequisite = { focus = SIA_aligned_with_buddhist_nations }
-}
+		prerequisite = { focus = SIA_pan_aillience__with_buddhist_nations }
+	}
 	focus = {
 		id = SIA_land_of_the_buddha #Gain ability to core all of India (clearly not OP)
 		icon = gfx_focus_unknown
-		relative_position_id = SIA_fund_thmmayuth_nikai
+		relative_position_id = SIA_state_buddhism
 		x = 0
 		y = 2
 		cost = 10
 		completion_reward = { }
-		prerequisite = { focus = SIA_aligned_with_buddhist_nations }
-}
+		prerequisite = { focus = SIA_state_buddhism }
+		prerequisite = { focus = SIA_alligned_sri_lanka }
+	}
 	focus = {
 		id = SIA_return_power_to_the_nobility #Boovaradet and the King Mother as regents
 		icon = gfx_focus_unknown
@@ -1995,12 +1996,12 @@ focus = {
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_pardon_some_khana_ratsadon_members focus = SIA_sweet_taste_of_vengence }
-}
+	}
 	focus = {
 		id = SIA_install_a_generic_prime_minister #Asian generic guy first PM of Siam
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_overthrow_khana_ratsadon
-		x = 4
+		x = 5
 		y = 2
 		cost = 10
 		completion_reward = { }
@@ -2021,7 +2022,7 @@ focus = {
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_return_power_to_the_nobility
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_monarchist_military_rule focus = SIA_return_power_to_the_nobility focus = SIA_install_a_generic_prime_minister }
@@ -2030,8 +2031,8 @@ focus = {
 		id = SIA_may_I_forever_serve_your_majesty #enable kamikzaze attacks and banzai charges
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_return_power_to_the_nobility
-		x = -1
-		y = 1
+		x = -2
+		y = 3
 		cost = 10
 		completion_reward = { }
 				prerequisite = { focus = SIA_monarchist_military_rule focus = SIA_return_power_to_the_nobility focus = SIA_install_a_generic_prime_minister }
@@ -2041,21 +2042,23 @@ focus = {
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_return_power_to_the_nobility
 		x = 2
-		y = 1
+		y = 3
 		cost = 10
 		completion_reward = { }
-				prerequisite = { focus = SIA_monarchist_military_rule focus = SIA_return_power_to_the_nobility focus = SIA_install_a_generic_prime_minister }
-}
+		prerequisite = { focus = SIA_monarchist_military_rule focus = SIA_return_power_to_the_nobility focus = SIA_install_a_generic_prime_minister }
+		mutually_exclusive = { focus = SIA_enact_a_meiji_style_constitution }
+	}
 	focus = {
 		id = SIA_enact_a_meiji_style_constitution
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_return_power_to_the_nobility
 		x = 4
-		y = 1
+		y = 3
 		cost = 10
 		completion_reward = { }
-				prerequisite = { focus = SIA_monarchist_military_rule focus = SIA_return_power_to_the_nobility focus = SIA_install_a_generic_prime_minister }
-}
+		prerequisite = { focus = SIA_monarchist_military_rule focus = SIA_return_power_to_the_nobility focus = SIA_install_a_generic_prime_minister }
+		mutually_exclusive = { focus = SIA_consolidate_absolutist_rule }
+	}
 	
 	focus = {
 		id = SIA_a_visit_to_chinatown
@@ -2082,9 +2085,10 @@ focus = {
 		icon = gfx_focus_unknown
 		relative_position_id = SIA_coronate_king_rama_8
 		x = 0
-		y = 2
+		y = 3
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_coronate_king_rama_8 }
+		prerequisite = { focus = SIA_consolidate_absolutist_rule }
 }
 }
