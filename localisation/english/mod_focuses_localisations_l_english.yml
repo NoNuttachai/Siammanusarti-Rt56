@@ -90,7 +90,7 @@ SIA_joint_intellegence: "Joint Intelligence"
 SIA_liberate_indochina_from_imperialism: "Liberate Indochina From Imperialism"
 SIA_backed_ho_chi_minh: "Backed Ho Chi Minh"
 SIA_the_bangkok_declaration: "The Bangkok Declaration"
-SIA_one_vision_one_identity_one_community: "One Vision One Identity One Community"
+SIA_one_vision_one_identity_one_community: "One Vision, One Identity, One Community"
 SIA_khana_ratsadon_reelected: "Khana Ratsadon Reelected"
 SIA_continue_pridi_administration: "Continue Pridi Administration"
 SIA_thawan_thamrong_premiership: "Thawan Thamrong Premiership"
@@ -150,7 +150,7 @@ SIA_refit_civillian_ships: "Refit Civillian Ships"
 SIA_expand_the_merchant_fleet: "Expand The Merchant Fleet"
 SIA_expand_dockyards: "Expand Dockyards"
 SIA_matchanu_class_sub: "Matchanu Class Sub"
-SIA_commission_foreign_ships: "Commission Foreign Ships"
+SIA_commission_foreign_ships: "Conmission Foreign Ships"
 SIA_thonburi_class_ship: "Thonburi Class Ship"
 SIA_naresuan_class_ship: "Naresuan Class Ship"
 SIA_thai_gulf_minelaying_operation: "Thai Gulf Minelaying Operation"
@@ -326,6 +326,120 @@ SIA_incorporate_allied_radar_desc: "Note: ALSO inspired by RT56. Get Radar tech 
 
 SIA_modernized_escorts: "Modernized Escorts"
 SIA_modernized_escorts_desc: "Note: Another RT56-inspired focus. Just about modernizing said merchant fleet and the like."
+
+SIA_expand_sattahip_naval_base: "Prepare Naval Expansion"
+SIA_expand_sattahip_naval_base_desc: "TBA"
+
+SIA_expand_don_mueang_airport: "Expand Don Mueang Airport"
+SIA_expand_don_mueang_airport_desc: "TBA"
+
+SIA_founded_chaiseri: "Founded Chaiseri"
+SIA_founded_chaiseri_desc: "TBA"
+
+SIA_army_science_department: "Army Science Department"
+SIA_army_science_department_desc: "TBA"
+
+SIA_modernize_arms_factories: "Modernize Arms Factories"
+SIA_modernize_arms_factories_desc: "TBA"
+
+SIA_thai-japanese_aillance_shared_focus: "Thai-Japanese Alliance"
+SIA_thai-japanese_aillance_shared_focus_desc: "TBA"
+
+SIA_establish_the_national_bank: "Establish the National Bank"
+SIA_establish_the_national_bank_desc: "TBA"
+
+SIA_grants_to_siam_cement: "Grants to Siam Cement"
+SIA_grants_to_siam_cement_desc: "TBA"
+
+SIA_survay_fang_oil_well: "Survey Fang Oil Well"
+SIA_survay_fang_oil_well: "TBA"
+
+SIA_mining_industry: "Mining Industry"
+SIA_mining_industry_desc: "TBA"
+
+SIA_iron_bufallos: "Iron Bufallos"
+SIA_iron_bufallos_desc: "TBA"
+
+SIA_encorage_rubber_plantations: "Encourage Rubber Plantations"
+SIA_encorage_rubber_plantations_desc: "TBA"
+
+SIA_education_for_all: "Education for All"
+SIA_education_for_all_desc: "TBA"
+
+SIA_curb_chinese_immigration: "Curb Chinese Immigration"
+SIA_curb_chinese_immigration_desc: "TBA"
+
+SIA_the_siamese_melting_pot: "The Siamese Melting Pot"
+SIA_the_siamese_melting_pot_desc: "TBA"
+
+SIA_chinese_assimilation_policy: "Chinese Assimilation Policy"
+SIA_chinese_assimilation_policy_desc: "TBA"
+
+SIA_opposed_khana_ratsadon: "Oppose Khana Ratsadon"
+SIA_opposed_khana_ratsadon_desc: "TBA"
+
+SIA_exposed_crown_property_theft: "Expose Crown Property Theft"
+SIA_exposed_crown_property_theft_desc: "TBA"
+
+SIA_motion_of_no_confidence: "Motion of No Confidence"
+SIA_motion_of_no_confidence_desc: "TBA"
+
+SIA_plot_against_khana_ratsadon: "Plot Against Khana Ratsadon"
+SIA_plot_against_khana_ratsadon_desc: "TBA"
+
+SIA_overthrow_khana_ratsadon: "Overthrow Khana Ratsadon"
+SIA_overthrow_khana_ratsadon_desc: "TBA"
+
+SIA_sweet_taste_of_vengence: "Sweet Taste of Vengeance"
+SIA_sweet_taste_of_vengence_desc: "TBA"
+
+SIA_pardon_some_khana_ratsadon_members: "Show Some Mercy"
+SIA_pardon_some_khana_ratsadon_members_desc: "TBA"
+
+SIA_fund_thmmayuth_nikai: "Fund Thmmayuth Nikai"
+SIA_fund_thmmayuth_nikai_desc: "TBA"
+
+SIA_state_buddhism: "State Buddhism"
+SIA_state_buddhism_desc: "TBA"
+
+SIA_pan_aillience__with_buddhist_nations: "Pan-Buddhist Alliance"
+SIA_pan_aillience__with_buddhist_nations_desc: "TBA"
+
+SIA_alligned_sri_lanka: "Influence in Sri Lanka"
+SIA_alligned_sri_lanka_desc: "TBA"
+
+SIA_land_of_the_buddha: "Land of the Buddha"
+SIA_land_of_the_buddha_desc: "TBA"
+
+SIA_return_power_to_the_nobility: "Return Power to the Nobility"
+SIA_return_power_to_the_nobility_desc: "TBA"
+
+SIA_install_a_generic_prime_minister: "Install a Prime Minister"
+SIA_install_a_generic_prime_minister_desc: "TBA"
+
+SIA_monarchist_military_rule: "Monarchist Military Rule"
+SIA_monarchist_military_rule_desc: "TBA"
+
+SIA_coronate_king_rama_8: "Coronoate King Rama VIII"
+SIA_coronate_king_rama_8_desc: "TBA"
+
+SIA_may_I_forever_serve_your_majesty: "May I Forever Serve Your Majesty"
+SIA_may_I_forever_serve_your_majesty_desc: "TBA"
+
+SIA_consolidate_absolutist_rule: "Consolidate Absolutist Rule"
+SIA_consolidate_absolutist_rule_desc: "TBA"
+
+SIA_enact_a_meiji_style_constitution: "Enact a Meiji-Style Constitution"
+SIA_enact_a_meiji_style_constitution_desc: "TBA"
+
+SIA_a_visit_to_chinatown: "A Visit to Chinatown"
+SIA_a_visit_to_chinatown_desc: "TBA"
+
+SIA_add_something_here_7: "Add Something Here"
+SIA_add_something_here_7_desc: "TBA"
+
+SIA_return_to_absolute_monarchy: "Return to Absolute Monarchy"
+SIA_return_to_absolute_monarchy_desc: "TBA"
 
 # Balance of Power Decision Name
 SIA_entice_the_masses: "Entice the Masses"
