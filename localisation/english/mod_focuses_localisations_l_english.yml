@@ -441,6 +441,9 @@ SIA_add_something_here_7_desc: "TBA"
 SIA_return_to_absolute_monarchy: "Return to Absolute Monarchy"
 SIA_return_to_absolute_monarchy_desc: "TBA"
 
+SIA_build_small_patrol_boats: "Build Small Patrol Boats"
+SIA_build_small_patrol_boats_desc: "Note: Will add effects before long myself based off Nuttachai's idea."
+
 # Balance of Power Decision Name
 SIA_entice_the_masses: "Entice the Masses"
 
