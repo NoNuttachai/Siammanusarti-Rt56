@@ -3,7 +3,7 @@ SIA_aeronautical_workshop_organization = {
     name = "Air Force's Aeronautical Workshop"
     include = generic_light_aircraft_organization
     icon = GFX_idea_hawker
-    allowed = { original_TAG = SIA }
+    allowed = { FROM = { original_tag = SIA } }
 }
 #Naval MIOs
 SIA_bangkok_dock_organization = {
@@ -11,7 +11,7 @@ SIA_bangkok_dock_organization = {
 	include = generic_escort_ship_organization
 	icon = GFX_idea_SIA_bangkok_dock
 	allowed = {
-		original_tag = SIA
+		FROM = { original_tag = SIA }
 	}
     equipment_type = {  
         screen_ship
@@ -35,7 +35,7 @@ SIA_chaiseri_organisation = {
 	include = generic_tank_refurbishment_plant_organization
 	icon = GFX_idea_SIA_bangkok_dock
 	allowed = {
-		original_tag = SIA
+		FROM = { original_tag = SIA }
 	}
 }
 #Material Equipment MIOs
@@ -44,6 +44,6 @@ SIA_siamese_army_ordnance_department = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_SIA_bangkok_dock
 	allowed = {
-		original_tag = SIA
+		FROM = { original_tag = SIA }
 	}
 }
