@@ -720,6 +720,26 @@ focus_tree = {
 		cost = 10
 		completion_reward = { }
 		prerequisite = { focus = SIA_territorial_award_to_thailand }
+	}
+	focus = {
+		id = SIA_peg_the_baht_to_the_yen #during WW2 Japan print baht bills and force the exchange 1 to 1
+		icon = gfx_goal_unknown
+		relative_position_id = SIA_thai-japanese_aillance_shared_focus
+		x = 1
+		y = 2
+		cost = 10
+		completion_reward = { }
+		prerequisite = { focus = SIA_territorial_award_to_thailand }
+	}
+	focus = {
+		id = SIA_scientific_exchange #extra research slot, research group bonus
+		icon = GFX_goal_generic_scientific_exchange
+		relative_position_id = SIA_territorial_award_to_thailand
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = { }
+		prerequisite = { focus = SIA_kenpeitai_cooperation focus = SIA_peg_the_baht_to_the_yen }
 	}		
 	#Army Branch
 	focus = {
@@ -740,20 +760,6 @@ focus_tree = {
 				category = land_doctrine
 			}
 			army_experience = 10
-		}
-	}
-	focus = {
-		id = SIA_fortify_bangkok
-		icon = GFX_goal_generic_fortify_city
-		relative_position_id = SIA_army
-		x = -2
-		y = 1
-		
-		cost = 2
-		ai_will_do = { factor = 1 }
-		prerequisite = { focus = SIA_army }
-
-		completion_reward = {
 		}
 	}
 	focus = {
@@ -882,7 +888,7 @@ focus_tree = {
 		id = SIA_offensive_doctrine
 		icon = GFX_goal_unknown
 		relative_position_id = SIA_something_here
-		x = -1
+		x = 1
 		y = 1
 		
 		available = { has_political_power > 25 }
@@ -894,6 +900,20 @@ focus_tree = {
 		prerequisite = { focus = SIA_improve_army_logistics }
 		mutually_exclusive = { focus = SIA_prepare_defensive_infrastructure }
 		completion_reward = { }
+	}
+		focus = {
+		id = SIA_fortify_bangkok
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = SIA_prepare_defensive_infrastructure
+		x = 2
+		y = 1
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+		prerequisite = { focus = SIA_prepare_defensive_infrastructure focus = SIA_offensive_doctrine }
+
+		completion_reward = {
+		}
 	}
 	focus = {
 		id = SIA_develop_combined_arms_warfare
@@ -1181,8 +1201,8 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = SIA_naval_science_department
-		icon = gfx_goal_unknown
+		id = SIA_naval_science_department #naval research bonus and spawn naval research facility in Sattahip
+		icon = GFX_focus_unknown
 		relative_position_id = SIA_phang-nga_naval_base
 		x = 0
 		y = 2
@@ -1979,8 +1999,8 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = SIA_army_science_department
-		icon = GFX_goal_generic_construct_mil_factory
+		id = SIA_army_science_department #extra research slot
+		icon = GFX_focus_research
 		x = 0	
 		y = 2
 
