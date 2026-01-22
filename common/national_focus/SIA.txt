@@ -1985,20 +1985,6 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = SIA_domestic_tank_production
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0	
-		y = 2
-
-		prerequisite = { focus = SIA_founded_chaiseri }
-		prerequisite = { focus = SIA_army_science_department }
-		relative_position_id = SIA_founded_chaiseri
-
-		cost = 2
-		ai_will_do = { factor = 1 }
-		completion_reward = { }
-	}
-	focus = {
 		id = SIA_army_science_department #extra research slot
 		icon = GFX_focus_research
 		x = 0	
