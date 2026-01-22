@@ -1,7 +1,49 @@
-
-SIA_AERONAUTICAL_WORKSHOP_MIO = {
+#Aircraft MIOs
+SIA_aeronautical_workshop_organization = {
     name = "Air Force's Aeronautical Workshop"
     include = generic_light_aircraft_organization
     icon = GFX_idea_hawker
     allowed = { original_TAG = SIA }
+}
+#Naval MIOs
+SIA_bangkok_dock_organization = {
+    name = SIA_bangkok_dock
+	include = generic_escort_ship_organization
+	icon = GFX_idea_SIA_bangkok_dock
+	allowed = {
+		original_tag = SIA
+	}
+    equipment_type = {  
+        screen_ship
+        convoy_1
+    }
+    initial_trait = {
+        name = NOR_mio_initial_trait_convoy_and_escort_fleet #copy from Norway
+
+        organization_modifier = {
+            military_industrial_organization_research_bonus = 0.05
+        }
+
+        production_bonus = {
+            production_capacity_factor = 0.07
+        }
+    }
+}
+#Tanks MIOs
+SIA_chaiseri_organisation = {
+    name = SIA_chaiseri
+	include = generic_tank_refurbishment_plant_organization
+	icon = GFX_idea_SIA_bangkok_dock
+	allowed = {
+		original_tag = SIA
+	}
+}
+#Material Equipment MIOs
+SIA_siamese_army_ordnance_department = {
+    name = SIA_siamese_army_ordnance_department
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_SIA_bangkok_dock
+	allowed = {
+		original_tag = SIA
+	}
 }

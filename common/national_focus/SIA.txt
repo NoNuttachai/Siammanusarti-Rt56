@@ -838,7 +838,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIA_import_radio_technology
-		icon = GFX_focus_generic_reinforcing_the_supply_network
+		icon = GFX_focus_generic_radio_communication
 		relative_position_id = SIA_army
 		x = -1
 		y = 4
@@ -917,7 +917,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIA_develop_combined_arms_warfare
-		icon = gfx_goal_unknown
+		icon = GFX_focus_generic_combined_arms
 		relative_position_id = SIA_prussian_school_of_warfare
 		x = 1
 		y = 1
@@ -1470,7 +1470,7 @@ focus_tree = {
 		icon = SIA_air_force
 		relative_position_id = SIA_build_eastern_air_bases
 		x = 0
-		y = 4.5
+		y = 4
 		
 		cost = 2
 		ai_will_do = { factor = 1 }
