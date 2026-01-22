@@ -493,6 +493,9 @@ SIA_fortify_bangkok_desc: "As requested."
 SIA_offensive_doctrine: "Offensive Doctrine"
 SIA_offensive_doctrine_desc: "TBA"
 
+SIA_anti_air_defences: "Anti-Air Defences"
+SIA_anti_air_defences_desc: "As requested."
+
 #merf focuses :)
 SIA_increase_boripatra_production: "We have the Boripatra!"
 SIA_increase_boripatra_production_desc: "There are weaklings in the air force who are begging us to license foreign produced aircraft. There is no need! We should simply build more of our own domestic design, the Boripatra!"
