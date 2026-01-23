@@ -1,0 +1,8 @@
+SIA_bangkok_floodings = {
+	icon = GFX_idea_unknown
+	enable = {
+		always = yes
+	}
+	local_building_slots_factor = -0.1
+	state_production_speed_buildings_factor = -0.25
+}

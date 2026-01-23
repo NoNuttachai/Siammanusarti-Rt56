@@ -2,7 +2,9 @@ on_actions = {
 	
 	on_startup = {
 		effect = {
-			
+			SIA = {
+				country_event = { id = sia_events.66 days = 2435 }
+			}
 		}
 	}
 }

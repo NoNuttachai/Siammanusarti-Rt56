@@ -112,6 +112,33 @@ country_event = {
     }
 }
 
+country_event = { # Bangkok Floods
+    id = sia_events.66
+    title = sia_events.66.t
+    desc = sia_events.66.d
+    picture = report_event_liean_chaiykharn_soaked
+
+    is_triggered_only = yes
+
+    option = {
+        name = sia_events.66.a
+        289 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+			damage_building = {
+				type = industrial_complex
+				damage = 1
+			}
+			add_dynamic_modifier = {
+				modifier = SIA_bangkok_floodings
+				days = 60
+			}
+		}
+    }
+}
+
 country_event = {
 	id = sia_BOP_event.1
 	title = sia_BOP_event.1.t
