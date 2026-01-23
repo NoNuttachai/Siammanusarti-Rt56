@@ -71,4 +71,12 @@ spriteTypes = {
 		name = "GFX_focus_sia_bangkok_urbanization"
 		texturefile = "gfx/interface/goals/focus_siam_bangkok_urbanization.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_sia_Acquired_Bangkok_Company"
+		texturefile = "gfx/interface/goals/focus_Acquired_Bangkok_Company.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_sia_Founded_Chaiseri"
+		texturefile = "gfx/interface/goals/focus_Founded_Chaiseri.dds"
+	}
 }

@@ -140,4 +140,22 @@ SpriteTypes = {
 		name = "GFX_category_the_six_principles"
 		texturefile = "gfx/interface/decisions/GFX_decision_the_six_principles.dds"
 	}
+	
+	#MIOs
+	spriteType = {
+		name = "GFX_idea_Bangkok_Dock_Company"
+		texturefile = "gfx/interface/mios/MIO_Bangkok_Dock_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Ordnance_Department"
+		texturefile = "gfx/interface/mios/MIO_Ordnance_Department.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Thai_Aeronautical_Workshops"
+		texturefile = "gfx/interface/mios/MIO_Thai_Aeronautical_Workshops.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Chaiseri"
+		texturefile = "gfx/interface/mios/MIO_Chaiseri.dds"
+	}
 }
