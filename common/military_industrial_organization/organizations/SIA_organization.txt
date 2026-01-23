@@ -6,6 +6,14 @@ SIA_aeronautical_workshop_organization = {
 		tag = SIA 
 	}
 }
+SIA_curtiss_aeroplane_organization = {
+    include = generic_medium_aircraft_organization
+    icon = GFX_idea_MIO_Curtiss_Aeroplane
+    allowed = {
+		tag = SIA 
+	}
+	available = { has_completed_focus = SIA_curtiss_hawk_license_production }
+}
 #Naval MIOs
 SIA_bangkok_dock_organization = {
 	include = generic_escort_ship_organization
