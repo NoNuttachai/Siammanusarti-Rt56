@@ -124,3 +124,9 @@ SIA_aeronautical_workshop_organization: "Thai Aeronautical Workshop"
 SIA_bangkok_dock_organization: "Bangkok Dock"
 SIA_chaiseri_organisation: "Chaiseri"
 SIA_siamese_army_ordnance_department: "Siamese Army Ordnance Department"
+SIA_curtiss_aeroplane_organization: "Curtiss Aeroplane"
+
+#Scripted Peace Decisions
+SIA_towards_a_greater_thailand: "Towards a Greater Thailand"
+SIA_towards_a_greater_thailand_desc: "TBA"
+SIA_secure_pivotal_territories_in_indochina: "Secure Pivotal Territories in Indochina"
