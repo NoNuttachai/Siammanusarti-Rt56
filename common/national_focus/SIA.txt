@@ -721,16 +721,7 @@ focus_tree = {
 		completion_reward = { }
 		prerequisite = { focus = SIA_territorial_award_to_thailand }
 	}
-	focus = {
-		id = SIA_peg_the_baht_to_the_yen #during WW2 Japan print baht bills and force the exchange 1 to 1
-		icon = gfx_goal_unknown
-		relative_position_id = SIA_thai-japanese_aillance_shared_focus
-		x = 1
-		y = 2
-		cost = 10
-		completion_reward = { }
-		prerequisite = { focus = SIA_territorial_award_to_thailand }
-	}
+	
 	focus = {
 		id = SIA_scientific_exchange #extra research slot, research group bonus
 		icon = GFX_goal_generic_scientific_exchange
@@ -805,7 +796,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SIA_prussian_school_of_warfare }
 		completion_reward = { }
 	}
-		focus = {
+	focus = {
 		id = SIA_jungle_warfare_training
 		icon = gfx_goal_unknown
 		relative_position_id = SIA_prussian_school_of_warfare
@@ -818,7 +809,7 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_prussian_school_of_warfare focus = SIA_import_foreign_tanks }
-		prerequisite = { focus = SIA_fortify_bangkok }
+
 		completion_reward = { }
 	}
 	focus = {
@@ -871,7 +862,7 @@ focus_tree = {
 		icon = GFX_focus_generic_reinforcing_the_supply_network
 		relative_position_id = SIA_import_radio_technology
 		x = -1
-		y = 1
+		y = 2
 		
 		available = { has_political_power > 25 }
 		cancel_if_invalid = no
@@ -904,7 +895,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		relative_position_id = SIA_something_here
 		x = 1
-		y = 1
+		y = 2
 		
 		available = { has_political_power > 25 }
 		cancel_if_invalid = no
@@ -1224,7 +1215,6 @@ focus_tree = {
 		
 		cost = 5
 		ai_will_do = { factor = 1 }
-		prerequisite = { focus = SIA_modernized_escorts }
 		prerequisite = { focus = SIA_phang-nga_naval_base }
 		completion_reward = { }
 	}
@@ -1297,7 +1287,18 @@ focus_tree = {
 		completion_reward = { }
 	}
 	#Air Force
-	
+	focus = {
+		id = SIA_western_aviation_studies #also add air aces
+		icon = GFX_SOV_expand_aviation_institutes_ccp_2d_sov_compatibility
+		relative_position_id = SIA_air_force
+		x = -1
+		y = 1
+		
+		cost = 2
+		ai_will_do = { factor = 1 }
+		prerequisite = { focus = SIA_air_force }
+		completion_reward = { }
+	}
 	focus = {
 		id = SIA_purchase_foregin_aircraft
 		icon = GFX_focus_SMB_purchase_aircraft
@@ -1379,6 +1380,18 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = SIA_curtiss_hawk_license_production
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = { focus = SIA_domestic_aircraft_production }
+		x = 0
+		y = 1
+		relative_position_id = SIA_domestic_aircraft_production
+		completion_reward = {
+
+		}
+	}
+	focus = {
 		id = SIA_strategic_bombing
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -1403,18 +1416,7 @@ focus_tree = {
 
 		}
 	}
-	focus = {
-		id = SIA_curtiss_hawk_license_production
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = { focus = SIA_domestic_aircraft_production }
-		x = 0
-		y = 1
-		relative_position_id = SIA_domestic_aircraft_production
-		completion_reward = {
-
-		}
-	}
+	
 	focus = {
 		id = SIA_air_bang_fai
 		icon = GFX_focus_rocketry
@@ -1427,18 +1429,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = { }
 	}
-	focus = {
-		id = SIA_western_aviation_studies #also add air aces
-		icon = GFX_SOV_expand_aviation_institutes_ccp_2d_sov_compatibility
-		relative_position_id = SIA_air_force
-		x = -1
-		y = 1
-		
-		cost = 2
-		ai_will_do = { factor = 1 }
-		prerequisite = { focus = SIA_air_force }
-		completion_reward = { }
-	}
+	
 	focus = {
 		id = SIA_adopt_western_aircraft
 		icon = gfx_goal_unknown
@@ -1813,7 +1804,7 @@ focus_tree = {
 
 		relative_position_id = SIA_to_new_markets
 		prerequisite = { focus = SIA_economic_nationalism focus = SIA_to_new_markets }
-		mutually_exclusive = { focus = SIA_industrialized_the_nation }
+		mutually_exclusive = { focus = SIA_granary_of_the_orient }
 		cost = 2
 		ai_will_do = { factor = 1 }
 
@@ -1978,7 +1969,6 @@ focus_tree = {
 		prerequisite = { focus = SIA_bofors_artillery }
 		prerequisite = { focus = SIA_something_here }
 		prerequisite = { focus = SIA_bicycle_infantry }
-		prerequisite = { focus = SIA_domestic_tank_production }
 		relative_position_id = SIA_bofors_artillery
 
 		cost = 2
