@@ -1071,8 +1071,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SIA_naval_academy
-		icon = gfx_goal_unknown
+		id = SIA_coastal_defense_stratergy
+		icon = GFX_focus_FIN_coastal_defense
 		relative_position_id = SIA_navy
 		x = -2
 		y = 1
@@ -1084,7 +1084,7 @@ focus_tree = {
 	focus = {
 		id = SIA_expand_naval_repair_facilities
 		icon = gfx_goal_unknown
-		relative_position_id = SIA_naval_academy
+		relative_position_id = SIA_coastal_defense_stratergy
 		x = 5
 		y = 1
 		cost = 2
@@ -1095,13 +1095,13 @@ focus_tree = {
 	focus = {
 		id = SIA_expand_dockyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		relative_position_id = SIA_naval_academy
+		relative_position_id = SIA_coastal_defense_stratergy
 		x = 3
 		y = 1
 		
 		cost = 5
 		ai_will_do = { factor = 1 }
-		prerequisite = { focus = SIA_naval_academy focus = SIA_acquire_bangkok_dock_co }
+		prerequisite = { focus = SIA_coastal_defense_stratergy focus = SIA_acquire_bangkok_dock_co }
 		completion_reward = { }
 	}
 	focus = {
@@ -1144,13 +1144,13 @@ focus_tree = {
 	focus = {
 		id = SIA_commission_foreign_ships
 		icon = gfx_goal_unknown
-		relative_position_id = SIA_naval_academy
+		relative_position_id = SIA_coastal_defense_stratergy
 		x = 1
 		y = 1
 		
 		cost = 5
 		ai_will_do = { factor = 1 }
-		prerequisite = { focus = SIA_naval_academy focus = SIA_acquire_bangkok_dock_co }
+		prerequisite = { focus = SIA_coastal_defense_stratergy focus = SIA_acquire_bangkok_dock_co }
 		completion_reward = { }
 	}
 	focus = {
@@ -1163,7 +1163,9 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_commission_foreign_ships }
-		completion_reward = { }
+		completion_reward = { 
+			set_technology = { early_ship_hull_submarine = 1 }
+		}
 	}
 	focus = {
 		id = SIA_thonburi_class_ship
@@ -1261,7 +1263,7 @@ focus_tree = {
 		y = 1
 		cost = 2
 		ai_will_do = { factor = 1 }
-		prerequisite = { focus = SIA_naval_academy }
+		prerequisite = { focus = SIA_coastal_defense_stratergy }
 		completion_reward = { }
 	}
 	focus = {
