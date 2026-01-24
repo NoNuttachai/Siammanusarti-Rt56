@@ -134,3 +134,7 @@ SIA_secure_pivotal_territories_in_indochina: "Secure Pivotal Territories in Indo
 sia_events.100.t: "A Peace Deal from the [SIA.GetName]"
 sia_events.100.d: "TBA"
 sia_events.100.a: "If we must..."
+
+SIA_secure_pivotal_territories_in_malaya: "Secure Pivotal Territories in Malaya"
+SIA_secure_pivotal_territories_in_burma: "Secure Pivotal Territories in Burma"
+SIA_expel_the_colonizers_from_indochina: "Expel the Colonizers from Indochina"
