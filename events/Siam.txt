@@ -116,7 +116,7 @@ country_event = { # Bangkok Floods
     id = sia_events.66
     title = sia_events.66.t
     desc = sia_events.66.d
-    picture = report_event_liean_chaiykharn_soaked
+    picture = report_event_bangkok_flooding
 
     is_triggered_only = yes
 
@@ -125,6 +125,10 @@ country_event = { # Bangkok Floods
         289 = {
 			damage_building = {
 				type = infrastructure
+				damage = 1
+			}
+			damage_building = {
+				type = air_base
 				damage = 1
 			}
 			damage_building = {

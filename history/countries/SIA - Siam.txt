@@ -38,6 +38,76 @@ if = {
 #		}
 #	}
 
+if = {
+	limit = { 
+		has_dlc = "By Blood Alone" 
+	}
+	set_air_oob = "SIA_1936_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_small_airframe = 1
+		basic_medium_airframe = 1
+		air_torpedoe_1 = 1
+		photo_reconnaisance = 1
+	}
+	else = {
+		set_air_oob = "SIA_1936_air_legacy"
+		set_technology = {
+			cv_early_fighter = 1
+			cv_CAS1 = 1
+			cv_naval_bomber1 = 1
+			early_fighter = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
+if = {
+
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+
+	create_equipment_variant = {
+		name = "BorKhor.5 Prajadhipok"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = GFX_SIA_iw_small_airframe_medium
+	}
+
+	create_equipment_variant = {
+		name = "BorTor.2 Boripatra"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = GFX_SIA_iw_medium_airframe_medium
+	}
+	create_equipment_variant = {
+		name = "BorJor.1 V93 Corsair"
+		type = medium_plane_scout_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = recon_camera
+			engine_type_slot = engine_1_2x
+		}
+		icon = GFX_SIA_iw_medium_airframe_medium
+	}
+	
+}
+
 set_power_balance = {
     id = SIA_BOP
     left_side = SIA_RH_OPPOS
