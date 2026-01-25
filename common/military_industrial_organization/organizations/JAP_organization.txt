@@ -1462,6 +1462,7 @@ JAP_mitsubishi_kobe_shipyard_organization = {
 				original_tag = JAP 
 				has_dlc = "Arms Against Tyranny"
 			}
+			original_tag = SIA
 			PHI_SEA = yes
 		}
 	}
@@ -1489,6 +1490,17 @@ JAP_mitsubishi_kobe_shipyard_organization = {
 					NOT = {
 						has_completed_focus = PHI_declare_military_emergency
 					}
+				}
+			}
+		}
+		IF = {
+			limit = {
+				FROM = { original_tag = SIA }
+			}
+			FROM = { 
+				custom_trigger_tooltip = {
+					tooltip = SIA_completed_focus_through_japan
+					has_country_flag = SIA_unlock_mitsubishi 
 				}
 			}
 		}
