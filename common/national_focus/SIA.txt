@@ -1068,6 +1068,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_ideas = SIA_siamese_royal_navy
 		}
 	}
 	focus = {
@@ -1079,7 +1080,19 @@ focus_tree = {
 		cost = 2
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_navy }
-		completion_reward = { }
+		completion_reward = { 
+			navy_experience = 25
+			add_doctrine_cost_reduction = {
+				name = SIA_coastal_defense_stratergy
+				cost_reduction = 0.75
+				uses = 1
+				category = naval_doctrine
+			}		
+			swap_ideas = {
+				add_idea = SIA_siamese_royal_navy_2
+				remove_idea = SIA_siamese_royal_navy
+			}
+		}
 	}
 	focus = {
 		id = SIA_expand_naval_repair_facilities
@@ -1090,7 +1103,7 @@ focus_tree = {
 		cost = 2
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_acquire_bangkok_dock_co }
-		completion_reward = { }
+		completion_reward = { add_ideas = SIA_maintaining_our_might }
 	}
 	focus = {
 		id = SIA_expand_dockyards
@@ -1102,7 +1115,48 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_coastal_defense_stratergy focus = SIA_acquire_bangkok_dock_co }
-		completion_reward = { }
+		completion_reward = { 
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+					NOT = { has_state_flag = SIA_dockyard_added }
+				}
+				set_state_flag = SIA_dockyard_added
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+					NOT = { has_state_flag = SIA_dockyard_added }
+				}
+				set_state_flag = SIA_dockyard_added
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+					NOT = { has_state_flag = SIA_dockyard_added }
+				}
+				set_state_flag = SIA_dockyard_added
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = SIA_dockyard_expansion
+		}
 	}
 	focus = {
 		id = SIA_build_small_patrol_boats
@@ -1151,7 +1205,19 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_coastal_defense_stratergy focus = SIA_acquire_bangkok_dock_co }
-		completion_reward = { }
+		completion_reward = { 
+			unlock_military_industrial_organization_tooltip = mio:JAP_kawasaki_dockyards_organization
+			unlock_military_industrial_organization_tooltip = mio:ENG_yarrow_shipbuilders_organization
+			add_tech_bonus = {
+				name = SIA_commission_foreign_ships
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+				category = bb_tech
+				category = bc_tech
+				category = ca_tech
+			}
+		}
 	}
 	focus = {
 		id = SIA_matchanu_class_sub
@@ -1218,7 +1284,31 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_phang-nga_naval_base }
-		completion_reward = { }
+		completion_reward = { 
+			289 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = SIA_naval_science_department
+				bonus = 0.75
+				uses = 2
+				category = cv_tech
+				category = bb_tech
+				category = bc_tech
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				name = SIA_naval_science_department
+				bonus = 0.1
+				uses = 1
+				category = nuclear
+			}
+		}
 	}
 	focus = {
 		id = SIA_acquire_bangkok_dock_co
@@ -1230,7 +1320,36 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_navy }
-		completion_reward = { }
+		completion_reward = { 
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+					NOT = { has_state_flag = SIA_dockyard_added }
+				}
+				set_state_flag = SIA_dockyard_added
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+					NOT = { has_state_flag = SIA_dockyard_added }
+				}
+				set_state_flag = SIA_dockyard_added
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			# Add bonus here later
+		}
 	}
 	focus = {
 		id = SIA_air_force #add "siamese air force" as a NatSpirit
@@ -1264,7 +1383,16 @@ focus_tree = {
 		cost = 2
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_coastal_defense_stratergy }
-		completion_reward = { }
+		completion_reward = { 
+			add_ideas = SIA_mine_the_seas
+			navy_experience = 25
+			add_tech_bonus = {
+				name = SIA_thai_gulf_minelaying_operation
+				bonus = 0.5
+				uses = 2
+				category = naval_mines
+			}
+		}
 	}
 	focus = {
 		id = SIA_marines
