@@ -939,8 +939,20 @@ JAP_kawasaki_dockyards_organization = {
 	icon = GFX_idea_JAP_kawasaki_dockyards
 
 	allowed = {	
-		original_tag = JAP 
+		OR = {
+			original_tag = SIA
+			original_tag = JAP 
+		}
 		has_dlc = "Arms Against Tyranny"
+	}
+
+	available = {
+		IF = {
+			limit = {
+				FROM = { original_tag = SIA }
+			}
+			FROM = { has_completed_focus = SIA_commission_foreign_ships }
+		}
 	}
 
 	equipment_type = {
