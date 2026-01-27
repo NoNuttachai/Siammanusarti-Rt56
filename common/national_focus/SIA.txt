@@ -1362,34 +1362,13 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		prerequisite = { focus = SIA_commission_foreign_ships }
 		completion_reward = { 
-			if = {
-				limit = {
-					JAP = { 
-						exists = yes 
-						has_opinion = {
-							target = ROOT
-							value = 10
-						}
-					}
-				}
-				country_event = sia_events.3
-			}
-			else = {
-				add_tech_bonus = {
-					name = SIA_matchanu_class_sub
-					bonus = 0.5
-					uses = 2
-					category = ss_tech
-					category = cat_torpedoes
-				}				
-			}
 			set_technology = { 
 				early_ship_hull_submarine = 1 
 			}
 			create_equipment_variant = {
 				name = "Matchanu Class"
 				type = ship_hull_cruiser_submarine
-				name_group = JAP_SS_HISTORICAL
+				name_group = SIA_SS_HISTORICAL
 				show_position = no
 				allow_without_tech = yes
 				modules = {
@@ -1423,6 +1402,46 @@ focus_tree = {
 				equipment_variant = "Matchanu Class"
 				creator = JAP
 				name = "HTMS Phlai-Chumphon"
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = SIA_matchanu_class_sub_fulfill_Japan_requirement
+			effect_tooltip = {
+				country_event = sia_events.3
+				unlock_military_industrial_organization_tooltip = mio:JAP_mitsubishi_kobe_shipyard_organization
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = SIA_matchanu_class_sub_notfulfill_Japan_requirement
+			effect_tooltip = {
+				add_tech_bonus = {
+					name = SIA_matchanu_class_sub
+					bonus = 0.5
+					uses = 2
+					category = ss_tech
+					category = cat_torpedoes
+				}	
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						JAP = { 
+							exists = yes 
+							has_opinion = {
+								target = ROOT
+								value = 10
+							}
+						}
+					}
+					country_event = sia_events.3
+				}
+				else = {
+					add_tech_bonus = {
+						name = SIA_matchanu_class_sub
+						bonus = 0.5
+						uses = 2
+						category = ss_tech
+						category = cat_torpedoes
+					}				
+				}
 			}
 		}
 	}

@@ -115,6 +115,8 @@ SIA_fire_officials_involved: "Fire Officials Involved in the Scandal"
 # Tooltip
 unlock_six_principles_tt: "Unlocks £decision_icon_small decisions to propagandized §YThe Six Principles§!"
 SIA_commission_an_indepedent_gov_investigation_done: "Has §YCommissioned an Independent Goverment Investigation§!"
+SIA_matchanu_class_sub_fulfill_Japan_requirement: "If §YJapan exists§! and §Yopinion of Japan§! is at least §G+10§!:"
+SIA_matchanu_class_sub_notfulfill_Japan_requirement: "Else we will receive:"
 
 #Dynamic Modifiers
 SIA_bangkok_floodings: "Bangkok Floodings"

@@ -152,7 +152,7 @@ SIA_F_INF_01 = {
 
 	for_countries = { SIA }
 
-	can_use = { has_completed_focus = "SIA_femalecorps" }
+	
 
 	division_types = { "infantry" }
 
@@ -177,9 +177,7 @@ SIA_MLT_01 = {
 
 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_taharpran }
-	}
+	
 
 	division_types = { "infantry" }
 
@@ -223,9 +221,7 @@ SIA_MLT_03 = {
 
 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_yuwachontaharn }
-	}
+
 
 	division_types = { "infantry" }
 
@@ -346,9 +342,6 @@ SIA_CAV_03 = {
 
 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_phaopoliceintegration }
-	}
 
 	division_types = { "cavalry" }
 
